@@ -1,0 +1,38 @@
+#Distributed Machine Learning
+
+##### Systems  
+2014 APSys [A Scalable and Topology Configurable Protocol for Distributed Parameter Synchronization](http://research.microsoft.com/pubs/219927/main.pdf)  
+2014 ICML Tutorial [Emerging System for Large-Scale Machine Learning](http://www.cs.berkeley.edu/~jegonzal/talks/icml14_sysml.pdf)  
+2012 EuroSys [MadLINQ: Large-Scale Distributed Matrix Computation for the Cloud](http://research.microsoft.com/pubs/158914/euro135-qian.pdf)  
+2008 OSDI [DryadLINQ: A System for General-Purpose Distributed Data-Parallel Computing Using a High-Level Language](http://research.microsoft.com/en-us/projects/dryadlinq/dryadlinq.pdf)  
+2013 USENIX [Using One-Sided RDMA Reads to Build a Fast, CPU-Efficient Key-Value Store](http://news.cs.nyu.edu/~jinyang/pub/pilaf-usenix13.pdf)  
+
+##### Parameter Server
+2014 OSDI [Scaling Distributed Machine Learning with the Parameter Server](http://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf)  
+2013 NIPSW [Parameter Server for Distributed Machine Learning](http://www.cs.cmu.edu/~muli/file/ps.pdf)  
+2013 NIPSW [Distributed Delayed Proximal Gradient Methods](http://www.cs.cmu.edu/~muli/file/ddp.pdf)  
+
+##### Distributed Mini-Batching
+2014 JMLR [A Reliable Effective Terascale Linear Learning System](http://jmlr.org/papers/volume15/agarwal14a/agarwal14a.pdf)  
+2012 JMLR [Optimal Distributed Online Prediction Using Mini-Batches](http://jmlr.org/papers/volume13/dekel12a/dekel12a.pdf)  
+2011 ICML [Optimal Distributed Online Prediction](http://www.icml-2011.org/papers/404_icmlpaper.pdf)  
+2011 NIPS [Better Mini-Batch Algorithms via Accelerated Gradient Methods](http://papers.nips.cc/paper/4432-better-mini-batch-algorithms-via-accelerated-gradient-methods.pdf)  
+[Explorations in Parallel Distributed Processing: A Handbook of Models, Programs, and Exercises](http://web.stanford.edu/group/pdplab/pdphandbook/)  
+
+###### Communication/Latency
+2014 ATC [Exploiting bounded staleness to speed up Big Data analytics](https://www.usenix.org/system/files/conference/atc14/atc14-paper-cui.pdf)  
+2013 NIPS [Information-theoretic lower bounds for distributed statistical estimation with communication constraints](http://www.cs.berkeley.edu/~yuczhang/files/nips13_communication.pdf)  
+2013 NIPS [Optimistic Concurrency Control for Distributed Unsupervised Learning](http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2013_5038.pdf)  
+2011 NIPS [Distributed Delayed Stochastic Optimization](http://papers.nips.cc/paper/4247-distributed-delayed-stochastic-optimization.pdf)  
+
+##### Distributed Optimization
+2014 Foundation and Trends in Machine Learning [Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers](http://web.stanford.edu/~boyd/papers/admm_distr_stats.html)  
+2014 ICML [Communication-Efficient Distributed Optimization using an Approximate Newton-type Method](http://jmlr.org/proceedings/papers/v32/shamir14.pdf)  
+2013 SDM [Butterfly Mixing: Accelerating Incremental-Update Algorithms on Clusters](http://www.cs.berkeley.edu/~jfc/papers/13/butterflymixing.pdf)  
+2012 NIPS [Communication-Efficient Algorithms for Statistical Optimization](http://papers.nips.cc/paper/4728-communication-efficient-algorithms-for-statistical-optimization.pdf)  
+2010 NIPSW [MapReduce/Bigtable for Distributed Optimization](http://www.australianscience.com.au/research/google/36948.pdf)[slides](http://lccc.eecs.berkeley.edu/Slides/HallGiMa10_slides.pdf)  
+2010 NIPS [Distributed Dual Averaging in Networks](http://www.cs.berkeley.edu/~jduchi/projects/DuchiAgWa10_nips.pdf)  
+2010 NIPS [Parallelized Stochastic Gradient Descent](http://martin.zinkevich.org/publications/nips2010.pdf)[video](http://videosrv14.cs.washington.edu/info/videos/mp4/colloq/AAgarwal_140210.mp4)  
+2009 NIPS [Slow Learners are Fast](http://papers.nips.cc/paper/3888-slow-learners-are-fast.pdf)  
+2007 NIPS [Efficient Large-Scale Distributed Training of Conditional Maximum Entropy Models](http://www.ryanmcd.com/papers/efficient_maxentNIPS2009.pdf)  
+2007 NIPS [Map-Reduce for Machine Learning on Multicore](http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2006_725.pdf)  
