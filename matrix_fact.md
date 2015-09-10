@@ -1,0 +1,18 @@
+# Matrix Factorization
+
+2015 IJCAI [Word Embedding Revisited: A New Representation Learning and Explicit Matrix Factorization Perspective](http://staff.ustc.edu.cn/~linlixu/papers/ijcai15.pdf)  
+2015 Facebook Eng [Recommending items to more than a billion people](https://code.facebook.com/posts/861999383875667/recommending-items-to-more-than-a-billion-people/)  
+2015 arxiv [Generalized Low Rank Models](https://web.stanford.edu/~boyd/papers/pdf/glrm.pdf)
+2015 arxiv [Fast Differentially Private Matrix Factorization](http://arxiv.org/pdf/1505.01419v2.pdf)  
+2015 arxiv [Global Convergence of Stochastic Gradient Descent for Some Non-convex Matrix Problems](http://arxiv.org/abs/1411.1134)  
+2015 ICML [PU Learning for Matrix Completion](http://arxiv.org/pdf/1411.6081v1.pdf)
+2014 JMLR worksop [A Fast Distributed Stochastic Gradient Descent Algorithm for Matrix Factorization](http://www.jmlr.org/proceedings/papers/v36/li14.pdf)  
+2014 NIPSW [Elastic Distributed Bayesian Collaborative Filtering](http://stanford.edu/~rezab/nips2014workshop/submits/distbayes.pdf)  
+2014 NIPSW [Factorbird - a Parameter Server Approach to Distributed Matrix Factorization](http://stanford.edu/~rezab/papers/factorbird.pdf)  
+2014 RecSys [GASGD: Stochastic Gradient Descent for Distributed Asynchronous Matrix Completion via Graph Partitioning](http://dl.acm.org/citation.cfm?id=2645725)  
+2014 VLDB [NOMAD: Non-locking, stOchastic Multi-machine algorithm for Asynchronous and Decentralized matrix completion](http://www.vldb.org/pvldb/vol7/p975-yun.pdf)  
+2013 WWW [Distributed Large-Scale Natural Graph Factorization](http://www.di.ens.fr/~shervashidze/papers/Ahmedetal13.pdf)  
+2013 EDBT [Sparkler: Supporting Large-Scale Matrix Factorization](http://people.cs.umass.edu/~boduo/publications/2013EDBT-sparkler.pdf)  
+2012 ICDM [Distributed Matrix Completion](https://people.mpi-inf.mpg.de/~rgemulla/publications/teflioudi12completion.pdf) (DSGD++)  
+2011 KDD [Large-Scale Matrix Factorization with Distributed Stochastic Gradient Descent](https://people.mpi-inf.mpg.de/~rgemulla/publications/gemulla11dsgd.pdf) (DSGD)  
+2010 WWW [Distributed Nonnegative Matrix Factorization for Web-Scale Dyadic Data Analysis on MapReduce](http://research.microsoft.com/pubs/119077/DNMF.pdf)  
