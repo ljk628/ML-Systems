@@ -1,6 +1,6 @@
 # Scalable Machine Learning Systems
 
-A collection of papaers related with my research, whcich consists following topics:
+A collection of papaers on machine learning and disributed system, which consists of following topics:
 
 ###### [Distribtued Machine Learning](https://github.com/ljk628/ML-Systems/blob/master/dist_ml.md)
 ###### [Deep Learning](https://github.com/ljk628/ML-Systems/blob/master/deep_learning.md)
