@@ -1,5 +1,5 @@
 #Distributed Machine Learning/Optimization
----
+
 2014 [Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers](http://web.stanford.edu/~boyd/papers/admm_distr_stats.html) (ADMM)  
 2010 NIPS [Parallelized Stochastic Gradient Descent](http://martin.zinkevich.org/publications/nips2010.pdf) | [video](http://videosrv14.cs.washington.edu/info/videos/mp4/colloq/AAgarwal_140210.mp4) (One-Short)  
 2009 NIPS [Slow Learners are Fast](http://papers.nips.cc/paper/3888-slow-learners-are-fast.pdf)  
