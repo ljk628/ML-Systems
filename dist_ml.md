@@ -22,9 +22,11 @@
 
 
 ##### Distributed Consensus Problem
-[Cooperative Distributed Multi-Agent Optimization](https://asu.mit.edu/sites/default/files/documents/publications/Dist-chapter.pdf)  
-2010 NIPS [Distributed Dual Averaging in Networks](http://www.cs.berkeley.edu/~jduchi/projects/DuchiAgWa10_nips.pdf)  
-2009 IEEE Trans. on Automatic Control [Distributed subgradient methods for multi-agent optimization]()
+2012 Trans. on Automatic Control [Dual Averaging for Distributed Optimization:
+Convergence Analysis and Network Scaling](http://www.eecs.berkeley.edu/~wainwrig/Papers/DucAgaWai12.pdf)  
+2010 NIPS [Distributed Dual Averaging in Networks](https://web.stanford.edu/~jduchi/projects/DuchiAgWa10_nips.pdf)  
+2009 IEEE Trans. on Automatic Control [Distributed subgradient methods for multi-agent optimization](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4749425) | [slides](http://groups.csail.mit.edu/tds/seminars/s09/MIT-talk.pdf)  
+2008 Convex Optimization in Signal Processing and Communications [Cooperative Distributed Multi-Agent Optimization](https://asu.mit.edu/sites/default/files/documents/publications/Dist-chapter.pdf)  
 
 ##### Parameter Server
 2014 NIPS [Communication Efficient Distributed Machine

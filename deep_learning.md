@@ -5,12 +5,13 @@
 
 #### ImageNet Winners  
 2015 ICML [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://jmlr.org/proceedings/papers/v37/ioffe15.pdf)  
-2015 arxiv [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](http://arxiv.org/pdf/1502.01852v1.pdf)  
+2015 ICCV [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](http://arxiv.org/pdf/1502.01852v1.pdf)  
 2015 ICLR [Very Deep Convolutional Networks For Large-scale Image Recognition](http://arxiv.org/abs/1409.1556)  
 2015 CVPR [Going Deeper with Convolutions](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf)  
 2012 NIPS [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)  
 
 #### Deep Learning Systems  
+2015 Talk [Directions in Convolutional Neural Networks at Google](http://vision.stanford.edu/teaching/cs231n/slides/jon_talk.pdf)  
 2015 ICLR [Purine: A bi-graph based deep learning framework](http://arxiv.org/pdf/1412.6249v5.pdf)  
 2015 arxiv [Deep Image: Scaling up Image Recognition](http://arxiv.org/abs/1501.02876)   
 2014 NIPSW [Techniques and Systems for Training Large Neural Networks Quickly](http://stanford.edu/~rezab/nips2014workshop/slides/jeff.pdf)  
