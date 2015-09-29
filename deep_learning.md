@@ -20,6 +20,10 @@
 2013 ICML [Deep learning with COTS HPC systems](http://jmlr.org/proceedings/papers/v28/coates13.pdf)  
 2012 NIPS [Large Scale Distributed Deep Networks](http://static.googleusercontent.com/media/research.google.com/en/us/archive/large_deep_networks_nips2012.pdf)  
 
+##### CovNets
+
+2009 ICCV [What is the Best Multi-Stage Architecture for Object Recognition?](http://yann.lecun.com/exdb/publis/pdf/jarrett-iccv-09.pdf)  
+
 #### CPU vs GPU  
 2015 arxiv [Caffe con Troll: Shallow Ideas to Speed Up Deep Learning](http://arxiv.org/abs/1504.04343)  
 2011 NIPS workshop [Improving the speed of neural networks on CPUs](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37631.pdf)  

@@ -1,12 +1,17 @@
 #Distributed Machine Learning/Optimization
 
-2014 [Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers](http://web.stanford.edu/~boyd/papers/admm_distr_stats.html) (ADMM)  
+2015 KDD [Netowrk Lasso: Clustering and Optimization in Large
+Graphs](http://web.stanford.edu/~hallac/Network_Lasso.pdf)  
+ 
+##### Classic Distributed Learning
 2010 NIPS [Parallelized Stochastic Gradient Descent](http://martin.zinkevich.org/publications/nips2010.pdf) | [video](http://videosrv14.cs.washington.edu/info/videos/mp4/colloq/AAgarwal_140210.mp4) (One-Short)  
-2009 NIPS [Slow Learners are Fast](http://papers.nips.cc/paper/3888-slow-learners-are-fast.pdf)  
-2007 NIPS [Efficient Large-Scale Distributed Training of Conditional Maximum Entropy Models](http://www.ryanmcd.com/papers/efficient_maxentNIPS2009.pdf)  
+2010 NAACL[Distributed Training Strategies for the Structured Perceptron](http://www.cslu.ogi.edu/~bedricks/courses/cs506-pslc/articles/week3/dpercep.pdf)   
+2009 NIPS [Efficient Large-Scale Distributed Training of Conditional Maximum Entropy Models](http://www.ryanmcd.com/papers/efficient_maxentNIPS2009.pdf)  
+2009 NIPS [Slow Learners are Fast](http://papers.nips.cc/paper/3888-slow-learners-are-fast.pdf) 
 
-##### Efficient Communication/Communication Delay/Latency
+##### Communication Efficiency, Complexity, Delay, Latency
 2014 ATC [Exploiting bounded staleness to speed up Big Data analytics](https://www.usenix.org/system/files/conference/atc14/atc14-paper-cui.pdf)  
+2014 NIPS [Fundamental Limits of Online and Distributed Algorithms for Statistical Learning and Estimation](http://papers.nips.cc/paper/5386-fundamental-limits-of-online-and-distributed-algorithms-for-statistical-learning-and-estimation.pdf)  
 2014 ICML [Communication-Efficient Distributed Optimization using an Approximate Newton-type Method](http://jmlr.org/proceedings/papers/v32/shamir14.pdf)  
 2013 NIPS [Information-theoretic lower bounds for distributed statistical estimation with communication constraints](http://www.cs.berkeley.edu/~yuczhang/files/nips13_communication.pdf)  
 2013 NIPS [Optimistic Concurrency Control for Distributed Unsupervised Learning](http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2013_5038.pdf)  
@@ -21,8 +26,9 @@
 [Explorations in Parallel Distributed Processing: A Handbook of Models, Programs, and Exercises](http://web.stanford.edu/group/pdplab/pdphandbook/)  
 
 
-##### Distributed Consensus Problem
-2012 Trans. on Automatic Control [Dual Averaging for Distributed Optimization:
+##### Distributed Consensus
+2014 [Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers](http://web.stanford.edu/~boyd/papers/admm_distr_stats.html) (ADMM) 
+2012 IEEE Trans. on Automatic Control [Dual Averaging for Distributed Optimization:
 Convergence Analysis and Network Scaling](http://www.eecs.berkeley.edu/~wainwrig/Papers/DucAgaWai12.pdf)  
 2010 NIPS [Distributed Dual Averaging in Networks](https://web.stanford.edu/~jduchi/projects/DuchiAgWa10_nips.pdf)  
 2009 IEEE Trans. on Automatic Control [Distributed subgradient methods for multi-agent optimization](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=4749425) | [slides](http://groups.csail.mit.edu/tds/seminars/s09/MIT-talk.pdf)  
@@ -48,3 +54,9 @@ Learning with the Parameter Server](http://www.cs.cmu.edu/~muli/file/parameter_s
 2014 ICML Tutorial [Emerging System for Large-Scale Machine Learning](http://www.cs.berkeley.edu/~jegonzal/talks/icml14_sysml.pdf)  
 2012 EuroSys [MadLINQ: Large-Scale Distributed Matrix Computation for the Cloud](http://research.microsoft.com/pubs/158914/euro135-qian.pdf)  
 2008 OSDI [DryadLINQ: A System for General-Purpose Distributed Data-Parallel Computing Using a High-Level Language](http://research.microsoft.com/en-us/projects/dryadlinq/dryadlinq.pdf)   
+
+
+##### Data Privacy
+2012 JMLR [Distributed Learning, Communication Complexity and Privacy](http://www.cs.cmu.edu/~avrim/Papers/DistLrn.pdf)  
+2012 AISTATS [Protocols for Learning Classifiers on Distributed Data](https://www.cs.utah.edu/~jeffp/papers/distrib-learn-AIStat.pdf)  
+2013 Distributed Computing [When distributed computation is communication expensive](http://arxiv.org/abs/1304.4636)    
