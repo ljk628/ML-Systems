@@ -1,7 +1,14 @@
 #Deep Learning
 
 #### Model Compressing  
-2015 NIPSW [Distilling the Knowledge in a Neural Network](https://fb56552f-a-62cb3a1a-s-sites.googlegroups.com/site/deeplearningworkshopnips2014/65.pdf?attachauth=ANoY7cr8J-eqASFdYZeOQK8d9aGCtxzQpaVNCcjKgt1THV7e9FKNuTlrH4QCPmgMg2jynAz3ehjOU_2q9SMsnBYZq3_Jlxf1NnWcBejaVZi4vNHZ41H2DK8R-MJsk3MqfMDXOfEPxhAAOwUBH7oE-EtEKDoYa-16eqZ5djaoT4VXdir383rikNv6YF68dhm84kw04VCzH5XpA_8ucgW3iBr77bkjaYvNvC6YsUuC3PyVEPIusOZaM94%3D&attredirects=0)  
+2015 NIPS [Learning both Weights and Connections for Efficient Neural Networks](http://arxiv.org/abs/1506.02626)  
+2014 NIPS Deep Learning and Representation Learning workshop [Distilling the Knowledge in a Neural Network](https://fb56552f-a-62cb3a1a-s-sites.googlegroups.com/site/deeplearningworkshopnips2014/65.pdf?attachauth=ANoY7cr8J-eqASFdYZeOQK8d9aGCtxzQpaVNCcjKgt1THV7e9FKNuTlrH4QCPmgMg2jynAz3ehjOU_2q9SMsnBYZq3_Jlxf1NnWcBejaVZi4vNHZ41H2DK8R-MJsk3MqfMDXOfEPxhAAOwUBH7oE-EtEKDoYa-16eqZ5djaoT4VXdir383rikNv6YF68dhm84kw04VCzH5XpA_8ucgW3iBr77bkjaYvNvC6YsUuC3PyVEPIusOZaM94%3D&attredirects=0)  
+
+#### Training Efficiency
+2015 arxiv [Caffe con Troll: Shallow Ideas to Speed Up Deep Learning](http://arxiv.org/abs/1504.04343)  
+2014 NIPS [On the Computational Efficiency of Training Neural Networks](http://papers.nips.cc/paper/5267-on-the-computational-efficiency-of-training-neural-networks.pdf)  
+2011 NIPS workshop [Improving the speed of neural networks on CPUs](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37631.pdf)  
+
 
 #### ImageNet Winners  
 2015 ICML [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://jmlr.org/proceedings/papers/v37/ioffe15.pdf)  
@@ -20,13 +27,9 @@
 2013 ICML [Deep learning with COTS HPC systems](http://jmlr.org/proceedings/papers/v28/coates13.pdf)  
 2012 NIPS [Large Scale Distributed Deep Networks](http://static.googleusercontent.com/media/research.google.com/en/us/archive/large_deep_networks_nips2012.pdf)  
 
-##### CovNets
+#### CovNets
 
 2009 ICCV [What is the Best Multi-Stage Architecture for Object Recognition?](http://yann.lecun.com/exdb/publis/pdf/jarrett-iccv-09.pdf)  
-
-#### CPU vs GPU  
-2015 arxiv [Caffe con Troll: Shallow Ideas to Speed Up Deep Learning](http://arxiv.org/abs/1504.04343)  
-2011 NIPS workshop [Improving the speed of neural networks on CPUs](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37631.pdf)  
 
 #### Others  
 2015 AISTATS [Deeply-Supervised Nets](http://jmlr.org/proceedings/papers/v38/lee15a.pdf)  

@@ -5,7 +5,7 @@ Graphs](http://web.stanford.edu/~hallac/Network_Lasso.pdf)
  
 ##### Classic Distributed Learning
 2010 NIPS [Parallelized Stochastic Gradient Descent](http://martin.zinkevich.org/publications/nips2010.pdf) | [video](http://videosrv14.cs.washington.edu/info/videos/mp4/colloq/AAgarwal_140210.mp4) (One-Short)  
-2010 NAACL[Distributed Training Strategies for the Structured Perceptron](http://www.cslu.ogi.edu/~bedricks/courses/cs506-pslc/articles/week3/dpercep.pdf)   
+2010 NAACL [Distributed Training Strategies for the Structured Perceptron](http://www.cslu.ogi.edu/~bedricks/courses/cs506-pslc/articles/week3/dpercep.pdf)   
 2009 NIPS [Efficient Large-Scale Distributed Training of Conditional Maximum Entropy Models](http://www.ryanmcd.com/papers/efficient_maxentNIPS2009.pdf)  
 2009 NIPS [Slow Learners are Fast](http://papers.nips.cc/paper/3888-slow-learners-are-fast.pdf) 
 
