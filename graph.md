@@ -7,4 +7,5 @@ on Skewed Graphs](http://ipads.se.sjtu.edu.cn/projects/powerlyra/powerlyra-euros
 2014 OSDI [GraphX: Graph Processing in a Distributed Dataflow Framework](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-gonzalez.pdf)   
 2012 OSDI [PowerGraph: Distributed Graph-Parallel Computation on Natural Graphs](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-167.pdf)  
 2012 OSDI [GraphChi: Large-Scale Graph Computation on Just a PC](http://select.cs.cmu.edu/publications/paperdir/osdi2012-kyrola-blelloch-guestrin.pdf)  
+2010 SIGMOD [Pregel: A System for Large-Scale Graph Processing](https://kowshik.github.io/JPregel/pregel_paper.pdf)  
 2010 UAI [GraphLab: A New Framework For Parallel Machine Learning](http://www.select.cs.cmu.edu/publications/paperdir/uai2010-low-gonzalez-kyrola-bickson-guestrin-hellerstein.pdf)
