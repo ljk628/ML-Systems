@@ -1,6 +1,6 @@
 # Matrix Factorization
 
-2015 KDD [Fast and Robust Parallel SGD Matrix Factorization](http://dm.postech.ac.kr/MLGF-MF/fp352.pdf)  
+2015 KDD [Fast and Robust Parallel SGD Matrix Factorization](http://dm.postech.ac.kr/MLGF-MF/fp352.pdf) (MLGF)  
 2015 Facebook Eng [Recommending items to more than a billion people](https://code.facebook.com/posts/861999383875667/recommending-items-to-more-than-a-billion-people/)  
 2015 arxiv [Generalized Low Rank Models](https://web.stanford.edu/~boyd/papers/pdf/glrm.pdf)  
 2015 RecSys [Fast Differentially Private Matrix Factorization](http://arxiv.org/pdf/1505.01419v2.pdf)   
@@ -13,6 +13,8 @@
 2014 VLDB [NOMAD: Non-locking, stOchastic Multi-machine algorithm for Asynchronous and Decentralized matrix completion](http://www.vldb.org/pvldb/vol7/p975-yun.pdf) (NOMAD)  
 2013 WWW [Distributed Large-Scale Natural Graph Factorization](http://www.di.ens.fr/~shervashidze/papers/Ahmedetal13.pdf)  
 2013 EDBT [Sparkler: Supporting Large-Scale Matrix Factorization](http://people.cs.umass.edu/~boduo/publications/2013EDBT-sparkler.pdf)  
+2013 RecSys [A fast parallel sgd for matrix factorization in shared memory systems](https://www.csie.ntu.edu.tw/~cjlin/papers/libmf/libmf.pdf) (FPSGD)  
 2012 ICDM [Distributed Matrix Completion](https://people.mpi-inf.mpg.de/~rgemulla/publications/teflioudi12completion.pdf) (DSGD++)  
 2011 KDD [Large-Scale Matrix Factorization with Distributed Stochastic Gradient Descent](https://people.mpi-inf.mpg.de/~rgemulla/publications/gemulla11dsgd.pdf) (DSGD)  
 2010 WWW [Distributed Nonnegative Matrix Factorization for Web-Scale Dyadic Data Analysis on MapReduce](http://research.microsoft.com/pubs/119077/DNMF.pdf)  
+2009 JMLR [Scalable Collaborative Filtering Approaches for Large Recommender Systems](http://www.jmlr.org/papers/volume10/takacs09a/takacs09a.pdf)  
