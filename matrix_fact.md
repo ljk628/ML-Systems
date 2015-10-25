@@ -1,5 +1,6 @@
 # Matrix Factorization
 
+2015 CIKM [HDRF: Stream-Based Partitioning for Power-Law Graphs](http://www.fabiopetroni.com/Download/petroni2015HDRF.pdf)  
 2015 KDD [Fast and Robust Parallel SGD Matrix Factorization](http://dm.postech.ac.kr/MLGF-MF/fp352.pdf) (MLGF)  
 2015 Facebook Eng [Recommending items to more than a billion people](https://code.facebook.com/posts/861999383875667/recommending-items-to-more-than-a-billion-people/)  
 2015 arxiv [Generalized Low Rank Models](https://web.stanford.edu/~boyd/papers/pdf/glrm.pdf)  
