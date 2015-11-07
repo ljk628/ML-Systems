@@ -1,6 +1,7 @@
 #Large-Scale Graph Computation
 
 2015 CIKM [HDRF: Stream-Based Partitioning for Power-Law Graphs](http://www.fabiopetroni.com/Download/petroni2015HDRF.pdf)  
+2015 VLDB [One Trillion Edges: Graph Processing at Facebook-Scale](http://www.vldb.org/pvldb/vol8/p1804-ching.pdf)  
 2015 VLDB [A Scalable Distributed Graph Partitioner](http://www.eecs.harvard.edu/~dmargo/pubs/vldb15-paper.pdf)  
 2015 SOSP [Chaos: Scale-out Graph Processing from Secondary Storage](http://sigops.org/sosp/sosp15/current/2015-Monterey/printable/089-roy.pdf)  
 2015 EuroSys [PowerLyra: Differentiated Graph Computation and Partitioning
