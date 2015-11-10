@@ -1,7 +1,8 @@
 #Deep Learning
 
 #### Deep Learning System
-2015 BayLearn [Large-Scale Deep Learning for
+2015 [TensorFlow:Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf)  
+2015 BayLearn Talk [Large-Scale Deep Learning for
 Intelligent Computer Systems](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/BayLearn2015.pdf) (TensorFlow)  
 2015 Talk [Directions in Convolutional Neural Networks at Google](http://vision.stanford.edu/teaching/cs231n/slides/jon_talk.pdf)  
 2015 ICLR [Purine: A bi-graph based deep learning framework](http://arxiv.org/pdf/1412.6249v5.pdf)  
