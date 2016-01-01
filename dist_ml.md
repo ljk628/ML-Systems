@@ -27,7 +27,7 @@ Graphs](http://web.stanford.edu/~hallac/Network_Lasso.pdf)
 
 
 ##### Distributed Consensus
-2014 [Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers](http://web.stanford.edu/~boyd/papers/admm_distr_stats.html) (ADMM) 
+2014 [Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers](http://web.stanford.edu/~boyd/papers/admm_distr_stats.html) (ADMM)  
 2012 IEEE Trans. on Automatic Control [Dual Averaging for Distributed Optimization:
 Convergence Analysis and Network Scaling](http://www.eecs.berkeley.edu/~wainwrig/Papers/DucAgaWai12.pdf)  
 2010 NIPS [Distributed Dual Averaging in Networks](https://web.stanford.edu/~jduchi/projects/DuchiAgWa10_nips.pdf)  
