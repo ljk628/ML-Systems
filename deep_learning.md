@@ -1,7 +1,7 @@
 #Deep Learning
 
 #### Deep Learning System
-2015 NIPSW LearningSys workshop [MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems](http://www.cs.cmu.edu/~muli/file/mxnet-learning-sys.pdf)   
+2015 NIPS LearningSys [MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems](http://www.cs.cmu.edu/~muli/file/mxnet-learning-sys.pdf)   
 2015 Google [TensorFlow:Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf)  
 2015 Google [Large-Scale Deep Learning for
 Intelligent Computer Systems](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/BayLearn2015.pdf) (TensorFlow)  
@@ -12,10 +12,11 @@ Intelligent Computer Systems](http://static.googleusercontent.com/media/research
 2014 NIPSW [Minerva: A Scalable and Highly Efficient Training Platform for Deep Learnin](http://stanford.edu/~rezab/nips2014workshop/submits/minerva.pdf)  
 2014 OSDI [Project Adam: Building an Efficient and Scalable Deep Learning Training System](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-chilimbi.pdf)  
 2013 ICML [Deep learning with COTS HPC systems](http://jmlr.org/proceedings/papers/v28/coates13.pdf)  
-2012 NIPS [Large Scale Distributed Deep Networks](http://static.googleusercontent.com/media/research.google.com/en/us/archive/large_deep_networks_nips2012.pdf) (DistBelief)  
+2012 NIPS [Large Scale Distributed Deep Networks](http://static.googleusercontent.com/media/research.google.com/en/us/archive/large_deep_networks_nips2012.pdf) (Google DistBelief)  
 
 
 #### Model Compressing  
+2015 arxiv [Structured Pruning of Deep Convolutional Neural Networks](http://arxiv.org/abs/1512.08571)  
 2015 ICCV [An exploration of parameter redundancy in deep networks with circulant projections](http://felixyu.org/pdf/ICCV15_circulant.pdf)  
 2015 ICML [Compressing Neural Networks with the Hashing Trick](http://jmlr.org/proceedings/papers/v37/chenc15.pdf)  
 2015 NIPS [Learning both Weights and Connections for Efficient Neural Networks](http://arxiv.org/abs/1506.02626)  
@@ -32,6 +33,7 @@ Intelligent Computer Systems](http://static.googleusercontent.com/media/research
 
 
 #### ImageNet Benchmarks  
+2015 arxiv [Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385)  
 2015 ICML [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://jmlr.org/proceedings/papers/v37/ioffe15.pdf)  
 2015 ICCV [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](http://arxiv.org/pdf/1502.01852v1.pdf)  
 2015 ICLR [Very Deep Convolutional Networks For Large-scale Image Recognition](http://arxiv.org/abs/1409.1556) (VGG)  
@@ -39,7 +41,9 @@ Intelligent Computer Systems](http://static.googleusercontent.com/media/research
 2012 NIPS [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (AlexNet)  
 
 #### Optimization 
+2015 NIPS [Training Very Deep Networks](http://papers.nips.cc/paper/5850-training-very-deep-networks.pdf)  
 2015 NIPS [Deep learning with Elastic Averaging SGD](https://www.cs.nyu.edu/~zsx/nips2015.pdf)  
+2015 ICMLW [Highway Networks](http://arxiv.org/pdf/1505.00387v2.pdf)  
 2015 ICLR [Parallel training of Deep Neural Networks with Natural Gradient and Parameter Averaging](http://arxiv.org/pdf/1409.1556v6.pdf)  
 2015 AISTATS [Deeply-Supervised Nets](http://jmlr.org/proceedings/papers/v38/lee15a.pdf)  
 2011 ICML [On optimization methods for deep learning](http://ai.stanford.edu/~quocle/LeNgiCoaLahProNg11.pdf)  
