@@ -25,14 +25,12 @@ Intelligent Computer Systems](http://static.googleusercontent.com/media/research
 	2014 NIPSW [Techniques and Systems for Training Large Neural Networks Quickly](http://stanford.edu/~rezab/nips- 2014workshop/slides/jeff.pdf)  
 
 
-
-
 #### ImageNet Records  
 - 2015 arxiv [Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385) (MSRA)   
 - 2015 ICML [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://jmlr.org/proceedings/papers/v37/ioffe15.pdf)  
 - 2015 ICCV [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](http://arxiv.org/pdf/1502.01852v1.pdf)  
 - 2015 ICLR [Very Deep Convolutional Networks For Large-scale Image Recognition](http://arxiv.org/abs/1409.1556) (VGG)  
-- 2015 CVPR [Going Deeper with Convolutions](http://www.cv-foundation.org/openaccess/content_cvpr_- 2015/papers/Szegedy_Going_Deeper_With_- 2015_CVPR_paper.pdf) (Google Inception)   
+- 2015 CVPR [Going Deeper with Convolutions](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43022.pdf) (Google Inception)   
 - 2012 NIPS [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (AlexNet)  
 
 #### Model Compressing / Efficient Training
@@ -70,13 +68,11 @@ Overfitting](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) (Dropout)
 - 2013 ICML [On the importance of initialization and momentum in deep learning](http://www.cs.utoronto.ca/~ilya/pubs/- 2013/1051_2.pdf)  
 - 2011 ICML [On optimization methods for deep learning](http://ai.stanford.edu/~quocle/LeNgiCoaLahProNg11.pdf)  
 
-
 #### CNN
 - 2013 PAMI [Invariant Scattering Convolution Networks](http://www.di.ens.fr/data/publications/papers/pami-final.pdf)  
 2009 ICCV [What is the Best Multi-Stage Architecture for Object Recognition?](http://yann.lecun.com/exdb/publis/pdf/jarrett-iccv-09.pdf)  
 
 #### RNN
-
 - 2013 ICML [On the difficulty of training recurrent neural networks](http://www.jmlr.org/proceedings/papers/v28/pascanu13.pdf)  
 
 #### LSTM
