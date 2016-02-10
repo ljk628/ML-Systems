@@ -19,27 +19,11 @@ Intelligent Computer Systems](http://static.googleusercontent.com/media/research
 - DMLC		
 	2015 NIPSW [MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems](http://www.cs.cmu.edu/~muli/file/mxnet-learning-sys.pdf)   
 	2014 NIPSW [Minerva: A Scalable and Highly Efficient Training Platform for Deep Learnin](http://stanford.edu/~rezab/nips- 2014workshop/submits/minerva.pdf)  
+	2015 ICLR [Purine: A bi-graph based deep learning framework](http://arxiv.org/pdf/1412.6249v5.pdf)  
+
 
 - Others  
-	2015 ICLR [Purine: A bi-graph based deep learning framework](http://arxiv.org/pdf/1412.6249v5.pdf)  
 	2014 NIPSW [Techniques and Systems for Training Large Neural Networks Quickly](http://stanford.edu/~rezab/nips- 2014workshop/slides/jeff.pdf)  
-
-
-#### ImageNet Records  
-- 2015 arxiv [Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385) (MSRA)   
-- 2015 ICML [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://jmlr.org/proceedings/papers/v37/ioffe15.pdf)  
-- 2015 ICCV [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](http://arxiv.org/pdf/1502.01852v1.pdf)  
-- 2015 ICLR [Very Deep Convolutional Networks For Large-scale Image Recognition](http://arxiv.org/abs/1409.1556) (VGG)  
-- 2015 CVPR [Going Deeper with Convolutions](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43022.pdf) (Google Inception)   
-- 2012 NIPS [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (AlexNet)  
-
-#### Model Compressing / Efficient Training
-- 2015 arxiv [Training CNNs with Low-Rank Filters for Efficient Image Classification](http://arxiv.org/abs/1511.06744)  
-- 2015 arxiv [Structured Pruning of Deep Convolutional Neural Networks](http://arxiv.org/abs/1512.08571)  
-- 2015 ICCV [An exploration of parameter redundancy in deep networks with circulant projections](http://felixyu.org/pdf/ICCV15_circulant.pdf)  
-- 2015 ICML [Compressing Neural Networks with the Hashing Trick](http://jmlr.org/proceedings/papers/v37/chenc15.pdf)  
-- 2015 NIPS [Learning both Weights and Connections for Efficient Neural Networks](http://arxiv.org/abs/1506.02626)  
-- 2014 NIPSW [Distilling the Knowledge in a Neural Network](https://fb56552f-a-62cb3a1a-s-sites.googlegroups.com/site/deeplearningworkshopnips- 2014/65.pdf?attachauth=ANoY7cr8J-eqASFdYZeOQK8d9aGCtxzQpaVNCcjKgt1THV7e9FKNuTlrH4QCPmgMg2jynAz3ehjOU_2q9SMsnBYZq3_Jlxf1NnWcBejaVZi4vNHZ41H2DK8R-MJsk3MqfMDXOfEPxhAAOwUBH7oE-EtEKDoYa-16eqZ5djaoT4VXdir383rikNv6YF68dhm84kw04VCzH5XpA_8ucgW3iBr77bkjaYvNvC6YsUuC3PyVEPIusOZaM94%3D&attredirects=0)  
 
 #### Parallization
 - 2015 arxiv [Fast Algorithms for Convolutional Neural Networks](http://arxiv.org/abs/1509.09308)  
@@ -49,11 +33,29 @@ Intelligent Computer Systems](http://static.googleusercontent.com/media/research
 - 2015 arxiv [Convolutional Neural Networks at Constrained Time Cost](http://arxiv.org/pdf/1412.1710v1.pdf)  
 - 2014 arxiv [One weird trick for parallelizing convolutional neural networks](http://arxiv.org/pdf/1404.5997v2.pdf)  
 - 2014 NIPS [On the Computational Efficiency of Training Neural Networks](http://papers.nips.cc/paper/5267-on-the-computational-efficiency-of-training-neural-networks.pdf)  
-- 2011 NIPSW [Improving the speed of neural networks on CPUs](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37631.pdf)  
+- 2011 NIPSW [Improving the speed of neural networks on CPUs](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37631.pdf)
+
+#### ImageNet Records  
+- 2015 arxiv [Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385)     
+- 2015 ICML [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://jmlr.org/proceedings/papers/v37/ioffe15.pdf)  
+- 2015 ICCV [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](http://arxiv.org/pdf/1502.01852v1.pdf)  
+- 2015 ICLR [Very Deep Convolutional Networks For Large-scale Image Recognition](http://arxiv.org/abs/1409.1556) (VGG)  
+- 2015 CVPR [Going Deeper with Convolutions](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43022.pdf) (Google Inception)   
+- 2012 NIPS [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (AlexNet)  
+
+#### Model Compressing / Efficient Training
+- 2016 AAAI [On the Depth of Deep Neural Networks: A Theoretical View](http://arxiv.org/abs/1506.05232)  
+- 2015 arxiv [Training CNNs with Low-Rank Filters for Efficient Image Classification](http://arxiv.org/abs/1511.06744)  
+- 2015 arxiv [Structured Pruning of Deep Convolutional Neural Networks](http://arxiv.org/abs/1512.08571)  
+- 2015 ICLR [FitNets: Hints for Thin Deep Nets](http://arxiv.org/pdf/1412.6550v4.pdf)  
+- 2015 ICCV [An exploration of parameter redundancy in deep networks with circulant projections](http://felixyu.org/pdf/ICCV15_circulant.pdf)  
+- 2015 ICML [Compressing Neural Networks with the Hashing Trick](http://jmlr.org/proceedings/papers/v37/chenc15.pdf)  
+- 2015 NIPS [Learning both Weights and Connections for Efficient Neural Networks](http://arxiv.org/abs/1506.02626)  
+- 2014 NIPS [Do Deep Nets Really Need to be Deep?](http://papers.nips.cc/paper/5484-do-deep-nets-really-need-to-be-deep.pdf)  
+- 2014 NIPSW [Distilling the Knowledge in a Neural Network](https://fb56552f-a-62cb3a1a-s-sites.googlegroups.com/site/deeplearningworkshopnips- 2014/65.pdf?attachauth=ANoY7cr8J-eqASFdYZeOQK8d9aGCtxzQpaVNCcjKgt1THV7e9FKNuTlrH4QCPmgMg2jynAz3ehjOU_2q9SMsnBYZq3_Jlxf1NnWcBejaVZi4vNHZ41H2DK8R-MJsk3MqfMDXOfEPxhAAOwUBH7oE-EtEKDoYa-16eqZ5djaoT4VXdir383rikNv6YF68dhm84kw04VCzH5XpA_8ucgW3iBr77bkjaYvNvC6YsUuC3PyVEPIusOZaM94%3D&attredirects=0)    
 
 #### Optimization 
 - 2016 Blog [An overview of gradient descent optimization algorithms](http://sebastianruder.com/optimizing-gradient-descent/index.html)  
-- 2016 AAAI [On the Depth of Deep Neural Networks: A Theoretical View](http://arxiv.org/abs/1506.05232)  
 - 2015 arxiv [Adding Gradient Noise Improves Learning for Very Deep Networks](http://arxiv.org/abs/1511.06807)      
 - 2015 DL Summer School [Non-Smooth, Non-Finite, and Non-Convex Optimization](http://www.iro.umontreal.ca/~memisevr/dlss- 2015/- 2015_DLSS_NonSmoothNonFiniteNonConvex.pdf)  
 - 2015 NIPS [Training Very Deep Networks](http://papers.nips.cc/paper/5850-training-very-deep-networks.pdf)  
@@ -64,6 +66,7 @@ Intelligent Computer Systems](http://static.googleusercontent.com/media/research
 - 2015 AISTATS [Deeply-Supervised Nets](http://jmlr.org/proceedings/papers/v38/lee15a.pdf)  
 - 2014 JMLR [Dropout: A Simple Way to Prevent Neural Networks from
 Overfitting](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) (Dropout)    
+- 2014 NIPS [Identifying and attacking the saddle point problem in high-dimensional non-convex optimization](http://papers.nips.cc/paper/5486-identifying-and-attacking-the-saddle-point-problem-in-high-dimensional-non-convex-optimization.pdf)  
 - 2014 OSLW [On the Computational Complexity of Deep Learning](http://lear.inrialpes.fr/workshop/osl- 2015/slides/osl- 2015_shalev_shwartz.pdf)  
 - 2013 ICML [On the importance of initialization and momentum in deep learning](http://www.cs.utoronto.ca/~ilya/pubs/- 2013/1051_2.pdf)  
 - 2011 ICML [On optimization methods for deep learning](http://ai.stanford.edu/~quocle/LeNgiCoaLahProNg11.pdf)  
