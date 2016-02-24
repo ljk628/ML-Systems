@@ -1,6 +1,6 @@
 # Scalable Machine Learning Systems
 
-A collection of papers related with my research, covering following topics:
+A collection of papers on scalable machine learning and systems, covering following topics:
 
 - [Distribtued Machine Learning](dist_ml.md)
 - [Deep Learning](deep_learning.md)
