@@ -16,7 +16,8 @@
 	2015 NIPSW [MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems](http://www.cs.cmu.edu/~muli/file/mxnet-learning-sys.pdf)   
 	2014 NIPSW [Minerva: A Scalable and Highly Efficient Training Platform for Deep Learnin](http://stanford.edu/~rezab/nips- 2014workshop/submits/minerva.pdf)  
 	2014 ICLR [Purine: A bi-graph based deep learning framework](http://arxiv.org/abs/1412.6249)  
-	
+- Yahoo!  
+	2015 [Large Scale Distributed Deep Learning on Hadoop Clusters](http://yahoohadoop.tumblr.com/post/129872361846/large-scale-distributed-deep-learning-on-hadoop)  
 
 ### Parallization
 - 2015 arXiv [Fast Algorithms for Convolutional Neural Networks](http://arxiv.org/abs/1509.09308)  
@@ -28,7 +29,7 @@
 - 2014 NIPS [On the Computational Efficiency of Training Neural Networks](http://papers.nips.cc/paper/5267-on-the-computational-efficiency-of-training-neural-networks.pdf)  
 - 2011 NIPSW [Improving the speed of neural networks on CPUs](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37631.pdf)
 
----
+
 ## Models & Algorithms
 
 ### CNNs Architectures
@@ -53,6 +54,7 @@
 - 2014 NIPS [Do Deep Nets Really Need to be Deep?](http://papers.nips.cc/paper/5484-do-deep-nets-really-need-to-be-deep.pdf)  
 - 2014 ECCV [Visualizing and Understanding Convolutional Networks](https://www.cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)  
 - 2009 ICCV [What is the Best Multi-Stage Architecture for Object Recognition?](http://yann.lecun.com/exdb/publis/pdf/jarrett-iccv-09.pdf)   
+- 1994 T-NN [SVD-NET: An Algorithm that Automatically Selects Network Structure](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=286929)  
 
 ##### Model Compressing
 - 2016 ICLR [Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding](http://arxiv.org/abs/1510.00149)  
@@ -62,6 +64,8 @@
 - 2015 ICCV [An exploration of parameter redundancy in deep networks with circulant projections](http://felixyu.org/pdf/ICCV15_circulant.pdf)  
 - 2015 ICML [Compressing Neural Networks with the Hashing Trick](http://jmlr.org/proceedings/papers/v37/chenc15.pdf)  
 - 2015 NIPS [Learning both Weights and Connections for Efficient Neural Networks](http://arxiv.org/abs/1506.02626)  
+- 2014 arXiv [Compressing deep convolutional networks
+using vector quantization](http://arxiv.org/abs/1412.6115)  
 - 2014 NIPSW [Distilling the Knowledge in a Neural Network](https://fb56552f-a-62cb3a1a-s-sites.googlegroups.com/site/deeplearningworkshopnips- 2014/65.pdf?attachauth=ANoY7cr8J-eqASFdYZeOQK8d9aGCtxzQpaVNCcjKgt1THV7e9FKNuTlrH4QCPmgMg2jynAz3ehjOU_2q9SMsnBYZq3_Jlxf1NnWcBejaVZi4vNHZ41H2DK8R-MJsk3MqfMDXOfEPxhAAOwUBH7oE-EtEKDoYa-16eqZ5djaoT4VXdir383rikNv6YF68dhm84kw04VCzH5XpA_8ucgW3iBr77bkjaYvNvC6YsUuC3PyVEPIusOZaM94%3D&attredirects=0)   
 
 ##### Other
@@ -87,10 +91,10 @@ Overfitting](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) (Dropout)
 - 2010 AISTATS [Understanding the difficulty of training deep feedforward neural networks](http://jmlr.org/proceedings/papers/v9/glorot10a/glorot10a.pdf)  
 
 ### RNN
-- 2013 ICML [On the difficulty of training recurrent neural networks](http://www.jmlr.org/proceedings/papers/v28/pascanu13.pdf)  
-
-### LSTM
+- 2016 arXiv [Architectural Complexity Measures of Recurrent Neural Networks](http://arxiv.org/abs/1602.08210)  
+- 2015 Andrej's Blog [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)  
 - 2015 ICML [An Empirical Exploration of Recurrent Network Architectures](http://jmlr.org/proceedings/papers/v37/jozefowicz15.pdf)  
+- 2013 ICML [On the difficulty of training recurrent neural networks](http://www.jmlr.org/proceedings/papers/v28/pascanu13.pdf)  
 
 ### Applications  
 - 2015 CVPR [FaceNet: A Unified Embedding for Face Recognition and Clustering](http://arxiv.org/abs/1503.03832)  
