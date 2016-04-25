@@ -7,16 +7,18 @@
 	2014 NIPSW [Techniques and Systems for Training Large Neural Networks Quickly](http://stanford.edu/~rezab/nips2014workshop/slides/jeff.pdf)  
 - Microsoft 	
 	2014 OSDI [Project Adam: Building an Efficient and Scalable Deep Learning Training System](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-chilimbi.pdf)  
-- Baidu  
+- Baidu / Stanford  
  	2015 arXiv [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595)  
 	2015 arXiv [Deep Image: Scaling up Image Recognition](http://arxiv.org/abs/1501.02876)  
 	2013 ICML [Deep learning with COTS HPC systems](http://jmlr.org/proceedings/papers/v28/coates13.pdf)  
-- DMLC		
-	2015 NIPSW [MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems](http://www.cs.cmu.edu/~muli/file/mxnet-learning-sys.pdf)   
-	2014 NIPSW [Minerva: A Scalable and Highly Efficient Training Platform for Deep Learnin](http://stanford.edu/~rezab/nips- 2014workshop/submits/minerva.pdf)  
-	2014 ICLR [Purine: A bi-graph based deep learning framework](http://arxiv.org/abs/1412.6249)  
 - Yahoo!  
 	2015 [Large Scale Distributed Deep Learning on Hadoop Clusters](http://yahoohadoop.tumblr.com/post/129872361846/large-scale-distributed-deep-learning-on-hadoop)  
+- DMLC		
+	2015 NIPSW [MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems](http://www.cs.cmu.edu/~muli/file/mxnet-learning-sys.pdf) [[GTC'16  Tutorial](http://www.cs.cmu.edu/~muli/file/mxnet_gtc16.pdf)]    
+	2014 NIPSW [Minerva: A Scalable and Highly Efficient Training Platform for Deep Learnin](http://stanford.edu/~rezab/nips- 2014workshop/submits/minerva.pdf)  
+	2014 ICLR [Purine: A bi-graph based deep learning framework](http://arxiv.org/abs/1412.6249)  
+- Petuum  
+	2016 EuroSys [STRADS: A Distributed Framework for Scheduled Model Parallel Machine Learning](http://www.istc-cc.cmu.edu/publications/papers/2016/strads-kim-eurosys16.pdf)   
 
 ### Parallization
 - 2015 arXiv [Fast Algorithms for Convolutional Neural Networks](http://arxiv.org/abs/1509.09308) (Winograd) [Blog](http://www.nervanasys.com/winograd/)    
@@ -61,20 +63,22 @@ Convolutional Neural Networks](http://arxiv.org/pdf/1603.05279v1.pdf)
 - 2016 arXiv [Binarized Neural Networks: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1](http://arxiv.org/abs/1602.02830)  
 - 2015 NIPS [BinaryConnect: Training Deep Neural Networks with binary weights during propagations](https://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations.pdf)  
    
-##### Model Compressing
+##### Model Compression / Parameter Pruning
 - 2016 ICLR [Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding](http://arxiv.org/abs/1510.00149)  
 - 2016 ICLR [Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications](http://arxiv.org/abs/1511.06530)
 - 2015 arXiv [Training CNNs with Low-Rank Filters for Efficient Image Classification](http://arxiv.org/abs/1511.06744)  
 - 2015 arXiv [Structured Pruning of Deep Convolutional Neural Networks](http://arxiv.org/abs/1512.08571)  
+- 2015 arXiv [Data-free parameter pruning for Deep Neural Networks](http://arxiv.org/abs/1507.06149)  
 - 2015 ICCV [An exploration of parameter redundancy in deep networks with circulant projections](http://felixyu.org/pdf/ICCV15_circulant.pdf)  
 - 2015 ICML [Compressing Neural Networks with the Hashing Trick](http://jmlr.org/proceedings/papers/v37/chenc15.pdf)  
 - 2015 NIPS [Learning both Weights and Connections for Efficient Neural Networks](http://arxiv.org/abs/1506.02626)  
 - 2014 arXiv [Compressing deep convolutional networks
 using vector quantization](http://arxiv.org/abs/1412.6115)  
 - 2014 NIPSW [Distilling the Knowledge in a Neural Network](https://fb56552f-a-62cb3a1a-s-sites.googlegroups.com/site/deeplearningworkshopnips- 2014/65.pdf?attachauth=ANoY7cr8J-eqASFdYZeOQK8d9aGCtxzQpaVNCcjKgt1THV7e9FKNuTlrH4QCPmgMg2jynAz3ehjOU_2q9SMsnBYZq3_Jlxf1NnWcBejaVZi4vNHZ41H2DK8R-MJsk3MqfMDXOfEPxhAAOwUBH7oE-EtEKDoYa-16eqZ5djaoT4VXdir383rikNv6YF68dhm84kw04VCzH5XpA_8ucgW3iBr77bkjaYvNvC6YsUuC3PyVEPIusOZaM94%3D&attredirects=0)   
+- 1989 NIPS [Optimal Brain Damage](http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf)  
 
-##### Other
-- 2013 PAMI [Invariant Scattering Convolution Networks](http://www.di.ens.fr/data/publications/papers/pami-final.pdf)  
+<!--##### Other
+- 2013 PAMI [Invariant Scattering Convolution Networks](http://www.di.ens.fr/data/publications/papers/pami-final.pdf)  -->
 
 ### Optimization 
 - 2016 ICLR [Data-Dependent Path Normalization in Neural Networks](http://arxiv.org/pdf/1511.06747v4.pdf)  
