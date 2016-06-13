@@ -1,9 +1,8 @@
 # Distributed Machine Learning
-===
 
 
 ## Distributed Optimization
----
+
 
 - 2016 KDD [Robust Large-Scale Machine Learning in the Cloud](http://www.kdd.org/kdd2016/papers/files/Paper_801.pdf)
 - 2015 KDD [Netowrk Lasso: Clustering and Optimization in Large
@@ -43,7 +42,7 @@ Convergence Analysis and Network Scaling](http://www.eecs.berkeley.edu/~wainwrig
 
 
 ## Distributed ML Systems  
----
+
 - 2014 APSys [A Scalable and Topology Configurable Protocol for Distributed Parameter Synchronization](http://research.microsoft.com/pubs/219927/main.pdf)  
 - 2014 ICML Tutorial [Emerging System for Large-Scale Machine Learning](http://www.cs.berkeley.edu/~jegonzal/talks/icml14_sysml.pdf)  
 - 2013 Distributed Computing [When distributed computation is communication expensive](http://arxiv.org/abs/1304.4636)    

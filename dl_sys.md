@@ -1,7 +1,7 @@
-##Deep Learning Systems
+## Deep Learning Systems
 
 
-## Deep Learning Software / Frameworks
+### Deep Learning Software / Frameworks
 - **[Caffe](http://caffe.berkeleyvision.org/)**  
 	2015 [Large Scale Distributed Deep Learning on Hadoop Clusters](http://yahoohadoop.tumblr.com/post/129872361846/large-scale-distributed-deep-learning-on-hadoop)  
 	2014 MM [Caffe: Convolutional Architecture for Fast Feature Embedding](http://arxiv.org/abs/1408.5093)  
@@ -27,12 +27,13 @@
 - **[Torch](http://torch.ch/)**  
 	2011 NIPSW [Torch7: A Matlab-like Environment for Machine Learning](http://cs.nyu.edu/~koray/files/2011_torch7_nipsw.pdf)  
 	
-## Speicific System 
- - 2015 arXiv [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595)  
+### Speicific System 
+
+- 2015 arXiv [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595)  
 - 2015 arXiv [Deep Image: Scaling up Image Recognition](http://arxiv.org/abs/1501.02876)  
 - 2013 ICML [Deep learning with COTS HPC systems](http://jmlr.org/proceedings/papers/v28/coates13.pdf)	
 
-## Parallization
+### Parallization
 - 2015 Intel [Single Node Caffe Scoring and Training on Intel® Xeon E5-Series Processors](https://software.intel.com/en-us/articles/single-node-caffe-scoring-and-training-on-intel-xeon-e5-series-processors)  
 - 2015 arXiv [Caffe con Troll: Shallow Ideas to Speed Up Deep Learning](http://arxiv.org/abs/1504.04343)  
 - 2015 ICMLW [Massively Parallel Methods for Deep Reinforcement Learning](https://8109f4a4-a-62cb3a1a-s-sites.googlegroups.com/site/deeplearning- 2015/1.pdf?attachauth=ANoY7cocCvmoqZlkfUFQkSwV8fULURfVSzDdFv0dyk8uU1ztfeCHFIK4Kb6JoEQ3iZLUiYBynddwePUhd-3ssJZkANn-PXFU7m1U_wE5Eb4eHbZj3YR41bLF1AEr5T5EDth97i9DdkipHses1XTMDu_wpw8zs0-RGb7WVQRF8ZOhvG1AW47CRkAI8X0iv-oLtWy9fGSSa-JR9JpSwFUtjt_0_UXu4BUUwg==&attredirects=0)  
