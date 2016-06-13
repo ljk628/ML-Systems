@@ -1,5 +1,5 @@
 # Fast and Scalable Machine Learning: Algorithms and  Systems
-===
+
 
 A collection of papers about recent progress on machine learning and systems, covering following topics:
 

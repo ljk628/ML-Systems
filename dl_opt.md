@@ -1,5 +1,5 @@
 ## Optimization 
----
+
 
 - 2016 ICLR [Data-Dependent Path Normalization in Neural Networks](http://arxiv.org/pdf/1511.06747v4.pdf)  
 - 2016 Blog [An overview of gradient descent optimization algorithms](http://sebastianruder.com/optimizing-gradient-descent/index.html)  

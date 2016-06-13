@@ -1,5 +1,5 @@
 ##Deep Learning Systems
----
+
 
 ## Deep Learning Software / Frameworks
 - **[Caffe](http://caffe.berkeleyvision.org/)**  
@@ -26,8 +26,6 @@
 	2016 arXiv [Theano: A Python framework for fast computation of mathematical expressions](http://arxiv.org/abs/1605.02688)  
 - **[Torch](http://torch.ch/)**  
 	2011 NIPSW [Torch7: A Matlab-like Environment for Machine Learning](http://cs.nyu.edu/~koray/files/2011_torch7_nipsw.pdf)  
-<!--- **Petuum**  
-	2016 EuroSys [STRADS: A Distributed Framework for Scheduled Model Parallel Machine Learning](http://www.istc-cc.cmu.edu/publications/papers/2016/strads-kim-eurosys16.pdf)   -->
 	
 ## Speicific System 
  - 2015 arXiv [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595)  

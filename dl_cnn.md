@@ -1,5 +1,5 @@
 ## Convolutional Nerual Netowrks
----
+
 
 ##### ImageNet Records  
 - 2016 arXiv [Identity Mappings in Deep Residual Networks](http://arxiv.org/pdf/1603.05027v1.pdf)    
