@@ -2,7 +2,7 @@
 
 
 ### ImageNet Records  
-- 2016 arXiv [Identity Mappings in Deep Residual Networks](http://arxiv.org/pdf/1603.05027v1.pdf)    
+- 2016 ECCV [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027)    
 - 2016 arXiv [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](http://arxiv.org/abs/1602.07261) (Inception V4)  
 - 2015 arXiv [Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385) (ResNet)     
 - 2015 arXiv [Rethinking the Inception Architecture for Computer Vision](http://arxiv.org/abs/1512.00567) (Inception V3)  
@@ -14,9 +14,11 @@
 
 ### Arichitecture Design
  
+- 2016 BMVC [Wide Residual Networks](http://arxiv.org/abs/1605.07146)  
 - 2016 arXiv [Benefits of depth in neural networks](http://arxiv.org/abs/1602.04485)  
 - 2016 AAAI [On the Depth of Deep Neural Networks: A Theoretical View](http://arxiv.org/abs/1506.05232)  
 - 2016 arXiv [SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <1MB model size](http://arxiv.org/abs/1602.07360)  
+- 2015 ICMLW [Highway Networks](http://arxiv.org/pdf/1505.00387v2.pdf)  
 - 2015 CVPR [Convolutional Neural Networks at Constrained Time Cost](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/He_Convolutional_Neural_Networks_2015_CVPR_paper.pdf)  
 - 2015 ICLR [FitNets: Hints for Thin Deep Nets](http://arxiv.org/pdf/1412.6550v4.pdf)  
 - 2014 NIPS [Do Deep Nets Really Need to be Deep?](http://papers.nips.cc/paper/5484-do-deep-nets-really-need-to-be-deep.pdf)  
@@ -41,15 +43,15 @@ Convolutional Neural Networks](http://arxiv.org/pdf/1603.05279v1.pdf)
 - 2015 arXiv [Training CNNs with Low-Rank Filters for Efficient Image Classification](http://arxiv.org/abs/1511.06744)  
 - 2015 arXiv [Structured Pruning of Deep Convolutional Neural Networks](http://arxiv.org/abs/1512.08571)  
 - 2015 arXiv [Data-free parameter pruning for Deep Neural Networks](http://arxiv.org/abs/1507.06149)  
-- 2015 ICCV [An exploration of parameter redundancy in deep networks with circulant projections](http://felixyu.org/pdf/ICCV15_circulant.pdf)  
+- 2015 ICCV [An Exploration of Parameter Redundancy in Deep Networks with Circulant Projections](http://felixyu.org/pdf/ICCV15_circulant.pdf)  
 - 2015 ICML [Compressing Neural Networks with the Hashing Trick](http://jmlr.org/proceedings/papers/v37/chenc15.pdf)  
 - 2015 NIPS [Learning both Weights and Connections for Efficient Neural Networks](http://arxiv.org/abs/1506.02626)  
-- 2014 arXiv [Compressing deep convolutional networks
-using vector quantization](http://arxiv.org/abs/1412.6115)  
+- 2014 arXiv [Compressing Deep Convolutional Networks
+using Vector Quantization](http://arxiv.org/abs/1412.6115)  
 - 2014 NIPSW [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)   
 - 1989 NIPS [Optimal Brain Damage](http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf)  
 
-### Applications  
+<!--### Applications  
 - 2015 CVPR [FaceNet: A Unified Embedding for Face Recognition and Clustering](http://arxiv.org/abs/1503.03832)  
 - 2012 CVPR [Towards Good Practice in Large-Scale Learning for Image Classification](http://hal.inria.fr/docs/00/69/00/14/PDF/cvpr2012.pdf)  
-- 2012 ICML [Building High-level Features Using Large Scale Unsupervised Learning](http://static.googleusercontent.com/media/research.google.com/en/us/archive/unsupervised_icml2012.pdf)  
+- 2012 ICML [Building High-level Features Using Large Scale Unsupervised Learning](http://static.googleusercontent.com/media/research.google.com/en/us/archive/unsupervised_icml2012.pdf)  -->
