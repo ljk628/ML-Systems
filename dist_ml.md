@@ -14,7 +14,7 @@ Graphs](http://web.stanford.edu/~hallac/Network_Lasso.pdf)
 - 2009 NIPS [Efficient Large-Scale Distributed Training of Conditional Maximum Entropy Models](http://www.ryanmcd.com/papers/efficient_maxentNIPS2009.pdf)  
 - 2009 NIPS [Slow Learners are Fast](http://papers.nips.cc/paper/3888-slow-learners-are-fast.pdf) 
 
-##### Communication Efficiency, Complexity, Delay, Latency
+### Communication Efficiency, Complexity, Delay, Latency
 - 2014 ATC [Exploiting bounded staleness to speed up Big Data analytics](https://www.usenix.org/system/files/conference/atc14/atc14-paper-cui.pdf)  
 2014 NIPS [Fundamental Limits of Online and Distributed Algorithms for Statistical Learning and Estimation](http://papers.nips.cc/paper/5386-fundamental-limits-of-online-and-distributed-algorithms-for-statistical-learning-and-estimation.pdf)  
 - 2014 ICML [Communication-Efficient Distributed Optimization using an Approximate Newton-type Method](http://jmlr.org/proceedings/papers/v32/shamir14.pdf)  
@@ -24,7 +24,7 @@ Graphs](http://web.stanford.edu/~hallac/Network_Lasso.pdf)
 - 2012 NIPS [Communication-Efficient Algorithms for Statistical Optimization](http://papers.nips.cc/paper/4728-communication-efficient-algorithms-for-statistical-optimization.pdf)  
 - 2011 NIPS [Distributed Delayed Stochastic Optimization](http://papers.nips.cc/paper/4247-distributed-delayed-stochastic-optimization.pdf)  
 
-##### Distributed Mini-Batching 
+### Distributed Mini-Batching 
 <!--- 2015 [Explorations in Parallel Distributed Processing: A Handbook of Models, Programs, and Exercises](http://web.stanford.edu/group/pdplab/pdphandbook/)  -->
 - 2014 KDD [Efficient Mini-batch Training for Stochastic Optimization](http://www.cs.cmu.edu/~muli/file/minibatch_sgd.pdf)  
 - 2012 JMLR [Optimal Distributed Online Prediction Using Mini-Batches](http://jmlr.org/papers/volume13/dekel12a/dekel12a.pdf)  
@@ -32,7 +32,8 @@ Graphs](http://web.stanford.edu/~hallac/Network_Lasso.pdf)
 - 2011 NIPS [Better Mini-Batch Algorithms via Accelerated Gradient Methods](http://papers.nips.cc/paper/4432-better-mini-batch-algorithms-via-accelerated-gradient-methods.pdf)  
 
 
-##### Distributed Consensus
+### Distributed Consensus
+- 2016 ICLRW [Revisiting Distributed Synchronous SGD](http://arxiv.org/abs/1604.00981)  
 - 2014 [Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers](http://web.stanford.edu/~boyd/papers/admm_distr_stats.html) (ADMM)  
 - 2012 IEEE Trans. on Automatic Control [Dual Averaging for Distributed Optimization:
 Convergence Analysis and Network Scaling](http://www.eecs.berkeley.edu/~wainwrig/Papers/DucAgaWai12.pdf)  
@@ -47,12 +48,12 @@ Convergence Analysis and Network Scaling](http://www.eecs.berkeley.edu/~wainwrig
 - 2014 ICML Tutorial [Emerging System for Large-Scale Machine Learning](http://www.cs.berkeley.edu/~jegonzal/talks/icml14_sysml.pdf)  
 - 2013 Distributed Computing [When distributed computation is communication expensive](http://arxiv.org/abs/1304.4636)    
 
-##### MapReduce / AllReduce
+### MapReduce / AllReduce
 - 2014 JMLR [A Reliable Effective Terascale Linear Learning System](http://jmlr.org/papers/volume15/agarwal14a/agarwal14a.pdf)  
 - 2010 NIPSW [MapReduce/Bigtable for Distributed Optimization](http://www.australianscience.com.au/research/google/36948.pdf)[slides](http://lccc.eecs.berkeley.edu/Slides/HallGiMa10_slides.pdf)  
 - 2007 NIPS [Map-Reduce for Machine Learning on Multicore](http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2006_725.pdf)  
 
-##### Parameter Servers
+### Parameter Servers
 - 2014 OSDI [Project Adam: Building an Efficient and Scalable Deep Learning Training System](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-chilimbi.pdf)  	 
 - 2014 OSDI [Scaling Distributed Machine Learning with the Parameter Server](http://www.cs.cmu.edu/~muli/file/parameter_server_osdi14.pdf)  
 - 2014 NIPS [Communication Efficient Distributed Machine
@@ -62,5 +63,5 @@ Learning with the Parameter Server](http://www.cs.cmu.edu/~muli/file/parameter_s
 - 2012 NIPS [Large Scale Distributed Deep Networks](http://static.googleusercontent.com/media/research.google.com/en/us/archive/large_deep_networks_nips2012.pdf) (DistBelief)  
 - 2010 VLDB [An Architecture for Parallel Topic Models](http://vldb.org/pvldb/vldb2010/papers/R63.pdf)  
 
-##### Peer-to-Peer
+### Peer-to-Peer
 - 2015 EuroSys [MALT: Distributed Data-Parallelism for Existing ML Applications](http://www.nec-labs.com/~asim/papers/malt_eurosys15.pdf)  
