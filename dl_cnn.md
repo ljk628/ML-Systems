@@ -1,7 +1,7 @@
 ## Convolutional Nerual Netowrks
 
 
-##### ImageNet Records  
+### ImageNet Records  
 - 2016 arXiv [Identity Mappings in Deep Residual Networks](http://arxiv.org/pdf/1603.05027v1.pdf)    
 - 2016 arXiv [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](http://arxiv.org/abs/1602.07261) (Inception V4)  
 - 2015 arXiv [Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385) (ResNet)     
@@ -12,7 +12,7 @@
 - 2015 CVPR [Going Deeper with Convolutions](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43022.pdf) (GoogleNet/Inception V1)   
 - 2012 NIPS [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (AlexNet)  
 
-##### Arichitecture Design
+### Arichitecture Design
  
 - 2016 arXiv [Benefits of depth in neural networks](http://arxiv.org/abs/1602.04485)  
 - 2016 AAAI [On the Depth of Deep Neural Networks: A Theoretical View](http://arxiv.org/abs/1506.05232)  
@@ -25,13 +25,17 @@
 - 2009 ICCV [What is the Best Multi-Stage Architecture for Object Recognition?](http://yann.lecun.com/exdb/publis/pdf/jarrett-iccv-09.pdf)   
 - 1994 T-NN [SVD-NET: An Algorithm that Automatically Selects Network Structure](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=286929)  
 
-##### Network Binarization
+### Network Binarization
 - 2016 arXiv [XNOR-Net: ImageNet Classification Using Binary
 Convolutional Neural Networks](http://arxiv.org/pdf/1603.05279v1.pdf)  
 - 2016 arXiv [Binarized Neural Networks: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1](http://arxiv.org/abs/1602.02830)  
 - 2015 NIPS [BinaryConnect: Training Deep Neural Networks with binary weights during propagations](https://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations.pdf)  
    
-##### Model Compression / Parameter Pruning
+### Model Compression / Parameter Pruning
+- 2016 NIPS [PerforatedCNNs: Acceleration through Elimination of Redundant Convolutions](http://arxiv.org/abs/1504.08362)  
+- 2016 ECCV [Less is More: Towards Compact CNNs]()  
+- 2016 arXiv [Dynamic Network Surgery for Efficient DNNs](http://128.84.21.199/abs/1608.04493)  
+- 2016 arXiv [DSD: Regularizing Deep Neural Networks with Dense-Sparse-Dense Training Flow](http://arxiv.org/abs/1607.04381)
 - 2016 ICLR [Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding](http://arxiv.org/abs/1510.00149)  
 - 2016 ICLR [Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications](http://arxiv.org/abs/1511.06530)
 - 2015 arXiv [Training CNNs with Low-Rank Filters for Efficient Image Classification](http://arxiv.org/abs/1511.06744)  
@@ -42,13 +46,10 @@ Convolutional Neural Networks](http://arxiv.org/pdf/1603.05279v1.pdf)
 - 2015 NIPS [Learning both Weights and Connections for Efficient Neural Networks](http://arxiv.org/abs/1506.02626)  
 - 2014 arXiv [Compressing deep convolutional networks
 using vector quantization](http://arxiv.org/abs/1412.6115)  
-- 2014 NIPSW [Distilling the Knowledge in a Neural Network](https://fb56552f-a-62cb3a1a-s-sites.googlegroups.com/site/deeplearningworkshopnips- 2014/65.pdf?attachauth=ANoY7cr8J-eqASFdYZeOQK8d9aGCtxzQpaVNCcjKgt1THV7e9FKNuTlrH4QCPmgMg2jynAz3ehjOU_2q9SMsnBYZq3_Jlxf1NnWcBejaVZi4vNHZ41H2DK8R-MJsk3MqfMDXOfEPxhAAOwUBH7oE-EtEKDoYa-16eqZ5djaoT4VXdir383rikNv6YF68dhm84kw04VCzH5XpA_8ucgW3iBr77bkjaYvNvC6YsUuC3PyVEPIusOZaM94%3D&attredirects=0)   
+- 2014 NIPSW [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)   
 - 1989 NIPS [Optimal Brain Damage](http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf)  
 
-<!--##### Other
-- 2013 PAMI [Invariant Scattering Convolution Networks](http://www.di.ens.fr/data/publications/papers/pami-final.pdf)  -->
-
-#### Applications  
+### Applications  
 - 2015 CVPR [FaceNet: A Unified Embedding for Face Recognition and Clustering](http://arxiv.org/abs/1503.03832)  
 - 2012 CVPR [Towards Good Practice in Large-Scale Learning for Image Classification](http://hal.inria.fr/docs/00/69/00/14/PDF/cvpr2012.pdf)  
 - 2012 ICML [Building High-level Features Using Large Scale Unsupervised Learning](http://static.googleusercontent.com/media/research.google.com/en/us/archive/unsupervised_icml2012.pdf)  
