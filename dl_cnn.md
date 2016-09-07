@@ -14,6 +14,7 @@
 
 ### Arichitecture Design
  
+- 2016 arXiv [Densely Connected Convolutional Networks](http://arxiv.org/abs/1608.06993)  
 - 2016 BMVC [Wide Residual Networks](http://arxiv.org/abs/1605.07146)  
 - 2016 arXiv [Benefits of depth in neural networks](http://arxiv.org/abs/1602.04485)  
 - 2016 AAAI [On the Depth of Deep Neural Networks: A Theoretical View](http://arxiv.org/abs/1506.05232)  
@@ -28,12 +29,13 @@
 - 1994 T-NN [SVD-NET: An Algorithm that Automatically Selects Network Structure](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=286929)  
 
 ### Network Binarization
-- 2016 arXiv [XNOR-Net: ImageNet Classification Using Binary
-Convolutional Neural Networks](http://arxiv.org/pdf/1603.05279v1.pdf)  
+- 2016 ECCV [XNOR-Net: ImageNet Classification Using Binary
+Convolutional Neural Networks](https://arxiv.org/abs/1603.05279)  
 - 2016 arXiv [Binarized Neural Networks: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1](http://arxiv.org/abs/1602.02830)  
 - 2015 NIPS [BinaryConnect: Training Deep Neural Networks with binary weights during propagations](https://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations.pdf)  
    
 ### Model Compression / Parameter Pruning
+- 2016 arXiv [Pruning Filters for Efficient ConvNets](http://128.84.21.199/abs/1608.08710)  
 - 2016 NIPS [PerforatedCNNs: Acceleration through Elimination of Redundant Convolutions](http://arxiv.org/abs/1504.08362)  
 - 2016 ECCV [Less is More: Towards Compact CNNs]()  
 - 2016 arXiv [Dynamic Network Surgery for Efficient DNNs](http://128.84.21.199/abs/1608.04493)  
