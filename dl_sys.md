@@ -19,6 +19,8 @@
 - **[Neon](https://www.nervanasys.com/technology/neon/)**   
 	2015 arXiv [Fast Algorithms for Convolutional Neural Networks](http://arxiv.org/abs/1509.09308) (Winograd) [[Blog]](http://www.nervanasys.com/winograd/)    
 	
+- **[Paddle](http://www.paddlepaddle.org/)**
+
 - **[SparkNet](https://github.com/amplab/SparkNet)**  
 	2016 arXiv [SparkNet: Training Deep Networks in Spark](http://arxiv.org/abs/1511.06051)
 	
