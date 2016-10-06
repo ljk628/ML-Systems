@@ -1,8 +1,12 @@
 ## Convolutional Nerual Netowrks
 
+- [ImageNet Models](#imagetnet-models)  
+- [Architecture Design](#architecture-design)  
+- [Network Binarization](#network-binarization)  
+- [Parameter Pruning](#parameter-pruning)  
 
-### ImageNet Records  
-- 2016 ECCV [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027)    
+### ImageNet Models  
+- 2016 ECCV [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027) (Pre-ResNet)   
 - 2016 arXiv [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](http://arxiv.org/abs/1602.07261) (Inception V4)  
 - 2015 arXiv [Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385) (ResNet)     
 - 2015 arXiv [Rethinking the Inception Architecture for Computer Vision](http://arxiv.org/abs/1512.00567) (Inception V3)  
@@ -12,7 +16,7 @@
 - 2015 CVPR [Going Deeper with Convolutions](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43022.pdf) (GoogleNet/Inception V1)   
 - 2012 NIPS [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (AlexNet)  
 
-### Arichitecture Design
+### Architecture Design
  
 - 2016 arXiv [Densely Connected Convolutional Networks](http://arxiv.org/abs/1608.06993)  
 - 2016 BMVC [Wide Residual Networks](http://arxiv.org/abs/1605.07146)  
@@ -34,10 +38,10 @@ Convolutional Neural Networks](https://arxiv.org/abs/1603.05279)
 - 2016 arXiv [Binarized Neural Networks: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1](http://arxiv.org/abs/1602.02830)  
 - 2015 NIPS [BinaryConnect: Training Deep Neural Networks with binary weights during propagations](https://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations.pdf)  
    
-### Model Compression / Parameter Pruning
+### Parameter Pruning
 - 2016 arXiv [Pruning Filters for Efficient ConvNets](http://128.84.21.199/abs/1608.08710)  
 - 2016 NIPS [PerforatedCNNs: Acceleration through Elimination of Redundant Convolutions](http://arxiv.org/abs/1504.08362)  
-- 2016 ECCV [Less is More: Towards Compact CNNs]()  
+- 2016 ECCV [Less is More: Towards Compact CNNs](https://static-content.springer.com/esm/chp%3A10.1007%2F978-3-319-46493-0_40/MediaObjects/419976_1_En_40_MOESM1_ESM.pdf)  
 - 2016 arXiv [Dynamic Network Surgery for Efficient DNNs](http://128.84.21.199/abs/1608.04493)  
 - 2016 arXiv [DSD: Regularizing Deep Neural Networks with Dense-Sparse-Dense Training Flow](http://arxiv.org/abs/1607.04381)
 - 2016 ICLR [Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding](http://arxiv.org/abs/1510.00149)  
@@ -51,7 +55,9 @@ Convolutional Neural Networks](https://arxiv.org/abs/1603.05279)
 - 2014 arXiv [Compressing Deep Convolutional Networks
 using Vector Quantization](http://arxiv.org/abs/1412.6115)  
 - 2014 NIPSW [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)   
+- 2014 NIPS [Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation](http://papers.nips.cc/paper/5544-exploiting-linear-structure-within-convolutional-networks-for-efficient-evaluation.pdf)  
 - 1989 NIPS [Optimal Brain Damage](http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf)  
+
 
 <!--### Applications  
 - 2015 CVPR [FaceNet: A Unified Embedding for Face Recognition and Clustering](http://arxiv.org/abs/1503.03832)  
