@@ -21,8 +21,9 @@
 	
 - **[Paddle](http://www.paddlepaddle.org/)**
 
-- **[SparkNet](https://github.com/amplab/SparkNet)**  
-	2016 arXiv [SparkNet: Training Deep Networks in Spark](http://arxiv.org/abs/1511.06051)
+- **[Spark](https://github.com/amplab/SparkNet)**  
+	2016 arXiv [SparkNet: Training Deep Networks in Spark](http://arxiv.org/abs/1511.06051)  
+	2016 arXiv [DeepSpark: A Spark-Based Distributed Deep Learning Framework for Commodity Clusters](https://arxiv.org/abs/1602.08191)  
 	
 - **[TensorFlow](https://www.tensorflow.org/)**  
 	2016 OSDI [BigArray: A System for Large-Scale Machine Learning]()  

@@ -1,9 +1,11 @@
 # Distributed Machine Learning
 
+- [Distributed Optimization](distributed-optimization)  
+- [Distributed ML Systems](distributed-ml-systems)
 
 ## Distributed Optimization
 
-
+- 2016 ICDM [Efficient Distributed SGD with Variance Reduction](https://arxiv.org/pdf/1512.02970.pdf)  
 - 2016 KDD [Robust Large-Scale Machine Learning in the Cloud](http://www.kdd.org/kdd2016/papers/files/Paper_801.pdf)
 - 2015 KDD [Netowrk Lasso: Clustering and Optimization in Large
 Graphs](http://web.stanford.edu/~hallac/Network_Lasso.pdf)  
