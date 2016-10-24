@@ -1,12 +1,14 @@
-## Convolutional Nerual Netowrks
+# Convolutional Nerual Netowrks
 
 - [ImageNet Models](#imagenet-models)  
 - [Architecture Design](#architecture-design) 
 - [Visualization](#visualization) 
-- [Network Binarization](#network-binarization)  
+- [Fast Convolution](#fast-convolution)
+- [Low-Rank Filter Approximation](#low-rank-filter-approximation)
+- [Low-Precision](#Low-Precision)  
 - [Parameter Pruning](#parameter-pruning)  
 
-### ImageNet Models  
+## ImageNet Models  
 - 2016 ECCV [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027) (Pre-ResNet)   
 - 2016 arXiv [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](http://arxiv.org/abs/1602.07261) (Inception V4)  
 - 2015 arXiv [Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385) (ResNet)     
@@ -17,7 +19,7 @@
 - 2015 CVPR [Going Deeper with Convolutions](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43022.pdf) (GoogleNet/Inception V1)   
 - 2012 NIPS [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (AlexNet)  
 
-### Architecture Design
+## Architecture Design
  
 - 2016 NIPS [Residual Networks Behave Like Ensembles of Relatively Shallow Networks](https://arxiv.org/abs/1605.06431)  
 - 2016 arXiv [Densely Connected Convolutional Networks](http://arxiv.org/abs/1608.06993)  
@@ -33,42 +35,53 @@
 - 2009 ICCV [What is the Best Multi-Stage Architecture for Object Recognition?](http://yann.lecun.com/exdb/publis/pdf/jarrett-iccv-09.pdf)   
 - 1994 T-NN [SVD-NET: An Algorithm that Automatically Selects Network Structure](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=286929)  
 
-### Visualization 
+## Visualization 
 
 - 2015 ICMLW [Understanding Neural Networks Through Deep Visualization](http://yosinski.com/media/papers/Yosinski__2015__ICML_DL__Understanding_Neural_Networks_Through_Deep_Visualization__.pdf)  
 - 2014 ECCV [Visualizing and Understanding Convolutional Networks](https://www.cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)  
 
-### Network Binarization
+## Fast Convolution
+
+- 2016 NIPS [PerforatedCNNs: Acceleration through Elimination of Redundant Convolutions](http://arxiv.org/abs/1504.08362)  
+- 2016 CVPR [Fast Algorithms for Convolutional Neural Networks](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lavin_Fast_Algorithms_for_CVPR_2016_paper.pdf) (Winograd)  
+  
+## Low-Rank Filter Approximation  
+- 2016 ICLR [Convolutional Neural Networks with Low-rank Regularization](https://arxiv.org/abs/1511.06067)  
+- 2016 ICLR [Training CNNs with Low-Rank Filters for Efficient Image Classification](http://arxiv.org/abs/1511.06744)  
+- 2016 TPAMI [Accelerating Very Deep Convolutional Networks for Classification and Detection](https://arxiv.org/abs/1505.06798)  
+- 2015 CVPR [Efficient and Accurate Approximations of Nonlinear Convolutional Networks](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zhang_Efficient_and_Accurate_2015_CVPR_paper.pdf)  
+- 2015 ICLR [Speeding-up convolutional neural networks using fine-tuned cp-decomposition](https://arxiv.org/pdf/1412.6553v3.pdf)  
+- 2014 NIPS [Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation](http://papers.nips.cc/paper/5544-exploiting-linear-structure-within-convolutional-networks-for-efficient-evaluation.pdf)  
+- 2014 BMVC [Speeding up Convolutional Neural Networks with Low Rank Expansions](https://arxiv.org/abs/1405.3866)  
+- 2013 NIPS [Predicting Parameters in Deep Learning](https://papers.nips.cc/paper/5025-predicting-parameters-in-deep-learning.pdf)  
+
+## Low-Precision
 - 2016 arXiv [Accelerating Deep Convolutional Networks using low-precision and sparsity](https://arxiv.org/abs/1610.00324)  
 - 2016 ECCV [XNOR-Net: ImageNet Classification Using Binary
 Convolutional Neural Networks](https://arxiv.org/abs/1603.05279)  
 - 2016 arXiv [Binarized Neural Networks: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1](http://arxiv.org/abs/1602.02830)  
 - 2015 NIPS [BinaryConnect: Training Deep Neural Networks with binary weights during propagations](https://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations.pdf)  
+- 2015 ICML [Deep Learning with Limited Numerical Precision](http://www.jmlr.org/proceedings/papers/v37/gupta15.pdf)  
+- 2015 ICLR [Training deep neural networks with low precision multiplications](https://arxiv.org/abs/1412.7024)    
+- 2011 NIPSW [Improving the speed of neural networks on CPUs](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37631.pdf)  
    
-### Parameter Pruning
+## Parameter Pruning
 - 2016 arXiv [Pruning Filters for Efficient ConvNets](http://128.84.21.199/abs/1608.08710)  
-- 2016 NIPS [PerforatedCNNs: Acceleration through Elimination of Redundant Convolutions](http://arxiv.org/abs/1504.08362)  
 - 2016 ECCV [Less is More: Towards Compact CNNs](https://static-content.springer.com/esm/chp%3A10.1007%2F978-3-319-46493-0_40/MediaObjects/419976_1_En_40_MOESM1_ESM.pdf)  
 - 2016 arXiv [Dynamic Network Surgery for Efficient DNNs](http://128.84.21.199/abs/1608.04493)  
 - 2016 arXiv [DSD: Regularizing Deep Neural Networks with Dense-Sparse-Dense Training Flow](http://arxiv.org/abs/1607.04381)
 - 2016 ICLR [Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding](http://arxiv.org/abs/1510.00149)  
 - 2016 ICLR [Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications](http://arxiv.org/abs/1511.06530)
-- 2016 ICLR [Convolutional neural networks with low-rank regularization](https://arxiv.org/abs/1511.06067)  
-- 2015 arXiv [Training CNNs with Low-Rank Filters for Efficient Image Classification](http://arxiv.org/abs/1511.06744)  
 - 2015 arXiv [Structured Pruning of Deep Convolutional Neural Networks](http://arxiv.org/abs/1512.08571)  
 - 2015 arXiv [Data-free parameter pruning for Deep Neural Networks](http://arxiv.org/abs/1507.06149)  
 - 2015 ICCV [Deep Fried Convnets](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Yang_Deep_Fried_Convnets_ICCV_2015_paper.pdf)  
 - 2015 ICCV [An Exploration of Parameter Redundancy in Deep Networks with Circulant Projections](http://felixyu.org/pdf/ICCV15_circulant.pdf)  
-- 2015 ICML [Compressing Neural Networks with the Hashing Trick](http://jmlr.org/proceedings/papers/v37/chenc15.pdf)  
 - 2015 NIPS [Learning both Weights and Connections for Efficient Neural Networks](http://arxiv.org/abs/1506.02626)  
-- 2015 CVPR [Efficient and Accurate Approximations of Nonlinear Convolutional Networks](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zhang_Efficient_and_Accurate_2015_CVPR_paper.pdf)  
+- 2015 ICML [Compressing Neural Networks with the Hashing Trick](http://jmlr.org/proceedings/papers/v37/chenc15.pdf)  
 - 2014 arXiv [Compressing Deep Convolutional Networks
 using Vector Quantization](http://arxiv.org/abs/1412.6115)  
 - 2014 NIPSW [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)   
-- 2014 NIPS [Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation](http://papers.nips.cc/paper/5544-exploiting-linear-structure-within-convolutional-networks-for-efficient-evaluation.pdf)  
-- 2014 BMVC [Speeding up Convolutional Neural Networks with Low Rank Expansions](https://arxiv.org/abs/1405.3866)  
 - 1989 NIPS [Optimal Brain Damage](http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf)  
-
 
 <!--### Applications  
 - 2015 CVPR [FaceNet: A Unified Embedding for Face Recognition and Clustering](http://arxiv.org/abs/1503.03832)  
