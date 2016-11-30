@@ -1,11 +1,13 @@
-## Optimization 
+# Optimization for Deep Learning
 
 - [General](#general)  
 - [Distributed Optimization](#distributed-optimization)  
 - [Batch Size](#batch-size)
 - [Regularization](#regularization)
 
-### General
+## General
+- 2016 arXiv [Entropy-SGD: Biasing Gradient Descent Into Wide Valleys](https://arxiv.org/abs/1611.01838)  
+- 2016 arXiv [Optimization Methods for Large-Scale Machine Learning](https://arxiv.org/abs/1606.04838)  
 - 2016 Blog [An overview of gradient descent optimization algorithms](http://sebastianruder.com/optimizing-gradient-descent/index.html)  
 - 2015 DL Summer School [Non-Smooth, Non-Finite, and Non-Convex Optimization](http://www.iro.umontreal.ca/~memisevr/dlss2015/2015_DLSS_NonSmoothNonFiniteNonConvex.pdf)  
 - 2015 NIPS [Training Very Deep Networks](http://papers.nips.cc/paper/5850-training-very-deep-networks.pdf)  
@@ -18,7 +20,7 @@
 - 2010 AISTATS [Understanding the difficulty of training deep feedforward neural networks](http://jmlr.org/proceedings/papers/v9/glorot10a/glorot10a.pdf)  
 
 
-### Distributed Optimization
+## Distributed Optimization
 
 - 2016 ICML [Training Neural Networks Without Gradients: A Scalable ADMM Approach](http://jmlr.org/proceedings/papers/v48/taylor16.pdf)  
 - 2016 IJCAI [Staleness-aware Async-SGD for Distributed Deep Learning](http://www.ijcai.org/Proceedings/16/Papers/335.pdf)  
@@ -27,12 +29,21 @@
 - 2015 NIPS [Deep learning with Elastic Averaging SGD](https://www.cs.nyu.edu/~zsx/nips2015.pdf) (EASGD)  
 - 2015 ICLR [Parallel training of Deep Neural Networks with Natural Gradient and Parameter Averaging](http://arxiv.org/pdf/1409.1556v6.pdf)  
 
+## Learning Rate
 
-### Batch Size
-- 2016 arXiv [On Large-Batch Training for Deep Learning:Generalization Gap and Sharp Minima](http://arxiv.org/abs/1609.04836)  g
+- 2016 arXiv [SGDR: Stochastic Gradient Descent with Restarts](https://arxiv.org/abs/1608.03983)  
+
+## Batch Size
+- 2016 arXiv [On Large-Batch Training for Deep Learning:Generalization Gap and Sharp Minima](http://arxiv.org/abs/1609.04836)  
+
+## Noise
 - 2015 arXiv [Adding Gradient Noise Improves Learning for Very Deep Networks](http://arxiv.org/abs/1511.06807)      
 
-### Regularization  
+## Regularization  
 - 2016 ICLR [Data-Dependent Path Normalization in Neural Networks](http://arxiv.org/pdf/1511.06747v4.pdf)  
-- 2014 JMLR [Dropout: A Simple Way to Prevent Neural Networks from
-Overfitting](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) (Dropout)   
+- 2014 JMLR [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) (Dropout)   
+
+## Loss Function
+
+## Meta-Learning  
+- 2016 arXiv [Learning to learn by gradient descent by gradient descent](https://arxiv.org/abs/1606.04474)    
