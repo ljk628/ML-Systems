@@ -5,8 +5,9 @@
 - [Visualization](#visualization)
 - [Fast Convolution](#fast-convolution)
 - [Low-Rank Filter Approximation](#low-rank-filter-approximation)
-- [Low-Precision](#Low-Precision)  
+- [Low Precision](#low-precision)  
 - [Parameter Pruning](#parameter-pruning)  
+- [Transfer Learning](#transfer-learning)  
 
 ## ImageNet Models  
 - 2016 ECCV [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027) (Pre-ResNet)   
@@ -58,26 +59,31 @@
 - 2013 NIPS [Predicting Parameters in Deep Learning](https://papers.nips.cc/paper/5025-predicting-parameters-in-deep-learning.pdf)  
 - 2013 CVPR [Learning Separable Filters](http://cvlabwww.epfl.ch/~lepetit/papers/rigamonti_cvpr13.pdf)  
 
-## Low-Precision
+## Low Precision
 - 2016 arXiv [Accelerating Deep Convolutional Networks using low-precision and sparsity](https://arxiv.org/abs/1610.00324)  
 - 2016 ECCV [XNOR-Net: ImageNet Classification Using Binary
 Convolutional Neural Networks](https://arxiv.org/abs/1603.05279)  
 - 2016 arXiv [Binarized Neural Networks: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1](http://arxiv.org/abs/1602.02830)  
+- 2016 ICLR [Neural Networks with Few Multiplications](https://arxiv.org/abs/1510.03009)  
 - 2015 NIPS [BinaryConnect: Training Deep Neural Networks with binary weights during propagations](https://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations.pdf)  
 - 2015 ICML [Deep Learning with Limited Numerical Precision](http://www.jmlr.org/proceedings/papers/v37/gupta15.pdf)  
 - 2015 ICLR [Training deep neural networks with low precision multiplications](https://arxiv.org/abs/1412.7024)    
 - 2011 NIPSW [Improving the speed of neural networks on CPUs](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37631.pdf)  
 
 ## Parameter Pruning
+- 2016 arXiv [Designing Energy-Efficient Convolutional Neural Networks using Energy-Aware Pruning](https://arxiv.org/abs/1611.05128)  
 - 2016 arXiv [Pruning Filters for Efficient ConvNets](http://128.84.21.199/abs/1608.08710)  
+- 2016 arXiv [Network Trimming: A Data-Driven Neuron Pruning Approach towards Efficient Deep Architectures](https://arxiv.org/abs/1607.03250)  
+- 2016 NIPS [Learning the Number of Neurons in Deep Networks](https://rsu.forge.nicta.com.au/people/jalvarez/LNN/AlvarezSalzmannNIPS16.pdf)  
 - 2016 NIPS [Learning Structured Sparsity in Deep Learning](https://arxiv.org/abs/1608.03665) \[[code](https://github.com/wenwei202/caffe/tree/scnn)\]  
+- 2016 NIPS [Dynamic Network Surgery for Efficient DNNs](http://128.84.21.199/abs/1608.04493)  
 - 2016 ECCV [Less is More: Towards Compact CNNs](https://static-content.springer.com/esm/chp%3A10.1007%2F978-3-319-46493-0_40/MediaObjects/419976_1_En_40_MOESM1_ESM.pdf)  
 - 2016 CVPR [Fast ConvNets Using Group-wise Brain Damage](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lebedev_Fast_ConvNets_Using_CVPR_2016_paper.pdf)  
-- 2016 arXiv [Dynamic Network Surgery for Efficient DNNs](http://128.84.21.199/abs/1608.04493)  
 - 2016 arXiv [DSD: Regularizing Deep Neural Networks with Dense-Sparse-Dense Training Flow](http://arxiv.org/abs/1607.04381)
 - 2016 ICLR [Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding](http://arxiv.org/abs/1510.00149)  
 - 2016 ICLR [Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications](http://arxiv.org/abs/1511.06530)
 - 2015 arXiv [Structured Pruning of Deep Convolutional Neural Networks](http://arxiv.org/abs/1512.08571)  
+- 2015 IEEE Access [Channel-Level Acceleration of Deep Face Representations](http://ieeexplore.ieee.org/document/7303876/)  
 - 2015 BMVC [Data-free parameter pruning for Deep Neural Networks](http://arxiv.org/abs/1507.06149)
 - 2015 ICML [Compressing Neural Networks with the Hashing Trick](http://jmlr.org/proceedings/papers/v37/chenc15.pdf)   
 - 2015 ICCV [Deep Fried Convnets](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Yang_Deep_Fried_Convnets_ICCV_2015_paper.pdf)  
@@ -87,5 +93,11 @@ Convolutional Neural Networks](https://arxiv.org/abs/1603.05279)
 - 2014 arXiv [Compressing Deep Convolutional Networks
 using Vector Quantization](http://arxiv.org/abs/1412.6115)  
 - 2014 NIPSW [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)   
-- 1993 T-NN [Pruning Algorithms--A Survey]()  
+- 1995 ISANN [Evaluating Pruning Methods](http://publications.idiap.ch/downloads/papers/1995/thimm-pruning-hop.pdf)  
+- 1993 T-NN [Pruning Algorithms--A Survey](http://axon.cs.byu.edu/~martinez/classes/678/Papers/Reed_PruningSurvey.pdf)  
 - 1989 NIPS [Optimal Brain Damage](http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf)  
+
+## Transfer Learning  
+- 2016 arXiv [What makes ImageNet good for transfer learning?](https://arxiv.org/abs/1608.08614)  
+- 2014 NIPS [How transferable are features in deep neural networks?](https://arxiv.org/pdf/1411.1792v1.pdf)  
+- 2014 CVPR [CNN Features off-the-shelf: an Astounding Baseline for Recognition](http://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W15/papers/Razavian_CNN_Features_Off-the-Shelf_2014_CVPR_paper.pdf)  
