@@ -1,4 +1,4 @@
-# Convolutional Nerual Netowrks
+# Convolutional Neural Networks
 
 - [ImageNet Models](#imagenet-models)  
 - [Architecture Design](#architecture-design)
@@ -8,6 +8,7 @@
 - [Low Precision](#low-precision)  
 - [Parameter Pruning](#parameter-pruning)  
 - [Transfer Learning](#transfer-learning)  
+- [Hardware](#hardware)  
 
 ## ImageNet Models  
 - 2016 ECCV [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027) (Pre-ResNet)   
@@ -36,6 +37,7 @@
 - 2014 NIPS [Do Deep Nets Really Need to be Deep?](http://papers.nips.cc/paper/5484-do-deep-nets-really-need-to-be-deep.pdf)  
 - 2014 ICLRW [Understanding Deep Architectures using a Recursive Convolutional Network](http://arxiv.org/abs/1312.1847)  
 - 2009 ICCV [What is the Best Multi-Stage Architecture for Object Recognition?](http://yann.lecun.com/exdb/publis/pdf/jarrett-iccv-09.pdf)   
+- 1995 NIPS [Simplifying Neural Nets by Discovering Flat Minima](https://papers.nips.cc/paper/899-simplifying-neural-nets-by-discovering-flat-minima.pdf)  
 - 1994 T-NN [SVD-NET: An Algorithm that Automatically Selects Network Structure](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=286929)  
 
 ## Visualization
