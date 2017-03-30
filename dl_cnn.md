@@ -1,5 +1,6 @@
 # Convolutional Neural Networks
 
+- [Theory](#theory)
 - [ImageNet Models](#imagenet-models)  
 - [Architecture Design](#architecture-design)
 - [Visualization](#visualization)
@@ -9,6 +10,10 @@
 - [Parameter Pruning](#parameter-pruning)  
 - [Transfer Learning](#transfer-learning)  
 - [Hardware](#hardware)  
+
+## Theory
+
+- 2016 arXiv [Understanding Deep Convolutional Networks](https://arxiv.org/pdf/1601.04920.pdf)  
 
 ## ImageNet Models  
 - 2016 ECCV [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027) (Pre-ResNet)   
@@ -28,7 +33,7 @@
 - 2016 NIPS [Residual Networks Behave Like Ensembles of Relatively Shallow Networks](https://arxiv.org/abs/1605.06431)  
 - 2016 arXiv [Densely Connected Convolutional Networks](http://arxiv.org/abs/1608.06993)  
 - 2016 BMVC [Wide Residual Networks](http://arxiv.org/abs/1605.07146)  
-- 2016 arXiv [Do Deep Convolutional Nets Really Need to be Deep and Convolutional?](https://arxiv.org/abs/1603.05691)  
+- 2017 ICLR [Do Deep Convolutional Nets Really Need to be Deep and Convolutional?](https://arxiv.org/abs/1603.05691)  
 - 2016 arXiv [Benefits of depth in neural networks](http://arxiv.org/abs/1602.04485)  
 - 2016 AAAI [On the Depth of Deep Neural Networks: A Theoretical View](http://arxiv.org/abs/1506.05232)  
 - 2016 arXiv [SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <1MB model size](http://arxiv.org/abs/1602.07360)  
@@ -36,6 +41,7 @@
 - 2015 CVPR [Convolutional Neural Networks at Constrained Time Cost](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/He_Convolutional_Neural_Networks_2015_CVPR_paper.pdf)   
 - 2014 NIPS [Do Deep Nets Really Need to be Deep?](http://papers.nips.cc/paper/5484-do-deep-nets-really-need-to-be-deep.pdf)  
 - 2014 ICLRW [Understanding Deep Architectures using a Recursive Convolutional Network](http://arxiv.org/abs/1312.1847)  
+- 2013 ICML [Making a Science of Model Search: Hyperparameter Optimization in Hundreds of Dimensions for Vision Architectures](http://jmlr.org/proceedings/papers/v28/bergstra13.pdf)  
 - 2009 ICCV [What is the Best Multi-Stage Architecture for Object Recognition?](http://yann.lecun.com/exdb/publis/pdf/jarrett-iccv-09.pdf)   
 - 1995 NIPS [Simplifying Neural Nets by Discovering Flat Minima](https://papers.nips.cc/paper/899-simplifying-neural-nets-by-discovering-flat-minima.pdf)  
 - 1994 T-NN [SVD-NET: An Algorithm that Automatically Selects Network Structure](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=286929)  
@@ -65,6 +71,7 @@
 
 ## Low Precision
 - 2017 arXiv [Deep Learning with Low Precision by Half-wave Gaussian Quantization](https://arxiv.org/abs/1702.00953)    
+- 2017 ICLR [Towards the Limit of Network Quantization](https://openreview.net/pdf?id=rJ8uNptgl)  
 - 2017 ICLR [Loss-aware Binarization of Deep Networks](https://openreview.net/pdf?id=S1oWlN9ll)  
 - 2017 ICLR [Trained Ternary Quantization](https://openreview.net/pdf?id=S1_pAu9xl)  
 - 2017 ICLR [Incremental Network Quantization: Towards Lossless CNNs with Low-precision Weights](https://openreview.net/pdf?id=HyQJ-mclg)  
@@ -72,9 +79,9 @@
 - 2016 ECCV [XNOR-Net: ImageNet Classification Using Binary Convolutional Neural Networks](https://arxiv.org/pdf/1603.05279.pdf)  
 - 2016 ICMLW [Overcoming Challenges in Fixed Point Training of Deep Convolutional Networks](https://arxiv.org/pdf/1607.02241.pdf)  
 - 2016 ICML [Fixed Point Quantization of Deep Convolutional Networks](http://jmlr.org/proceedings/papers/v48/linb16.pdf)  
-Convolutional Neural Networks](https://arxiv.org/abs/1603.05279)  
 - 2016 arXiv [Binarized Neural Networks: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1](http://arxiv.org/abs/1602.02830)  
 - 2016 ICLR [Neural Networks with Few Multiplications](https://arxiv.org/abs/1510.03009)  
+- 2015 arXiv[Resiliency of Deep Neural Networks under Quantization](https://arxiv.org/abs/1511.06488)  
 - 2015 NIPS [Backpropagation for Energy-Efficient Neuromorphic Computing](https://papers.nips.cc/paper/5862-backpropagation-for-energy-efficient-neuromorphic-computing.pdf)  
 - 2015 NIPS [BinaryConnect: Training Deep Neural Networks with binary weights during propagations](https://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations.pdf)  
 - 2015 ICMLW [Bitwise Neural Networks](http://minjekim.com/papers/icml2015_mkim.pdf)  
