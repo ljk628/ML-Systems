@@ -34,6 +34,10 @@
 - 2015 NIPS [Deep learning with Elastic Averaging SGD](https://www.cs.nyu.edu/~zsx/nips2015.pdf) (EASGD)  
 - 2015 ICLR [Parallel training of Deep Neural Networks with Natural Gradient and Parameter Averaging](http://arxiv.org/pdf/1409.1556v6.pdf)  
 
+## Initialization
+- 2016 ICLR [All You Need is a Good Init](https://arxiv.org/pdf/1511.06422.pdf)  
+- 2016 ICLR [Data-dependent Initializations of Convolutional Neural Networks](https://arxiv.org/pdf/1511.06856.pdf)  
+
 ## Learning Rate  
 - 2017 ICLR [SGDR: Stochastic Gradient Descent with Restarts](https://openreview.net/pdf?id=Skq89Scxx)  
 
@@ -42,6 +46,11 @@
 
 ## Noise
 - 2015 arXiv [Adding Gradient Noise Improves Learning for Very Deep Networks](http://arxiv.org/abs/1511.06807)      
+
+## Normalization
+- 2016 NIPS [Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks](https://arxiv.org/pdf/1602.07868.pdf)  
+- 2016 NIPS [Layer Normalization](https://arxiv.org/pdf/1607.06450.pdf)  
+- 2015 ICML [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://jmlr.org/proceedings/papers/v37/ioffe15.pdf)  
 
 ## Regularization  
 - 2016 ICLR [Data-Dependent Path Normalization in Neural Networks](http://arxiv.org/pdf/1511.06747v4.pdf)  
@@ -55,3 +64,6 @@
 
 ## Bayesian Optimization  
 - 2012 [Practical Bayesian Optimization of Machine Learning Algorithms](https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf)  
+
+## Stochastic Neurons
+- 2013 arXiv [Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation](https://arxiv.org/pdf/1308.3432.pdf)  

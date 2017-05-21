@@ -27,6 +27,7 @@
 - 2012 NIPS [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (AlexNet)  
 
 ## Architecture Design
+- 2017 arXiv [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861)  
 - 2017 arXiv [Large-Scale Evolution of Image Classifiers](https://arxiv.org/abs/1703.01041)  
 - 2017 ICLR [Neural Architecture Search with Reinforcement Learning](https://openreview.net/pdf?id=r1Ue8Hcxg)  
 - 2017 ICLR [Designing Neural Network Architectures using Reinforcement Learning](https://openreview.net/pdf?id=S1c2cvqee)  
@@ -81,7 +82,8 @@
 - 2016 ICML [Fixed Point Quantization of Deep Convolutional Networks](http://jmlr.org/proceedings/papers/v48/linb16.pdf)  
 - 2016 arXiv [Binarized Neural Networks: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1](http://arxiv.org/abs/1602.02830)  
 - 2016 ICLR [Neural Networks with Few Multiplications](https://arxiv.org/abs/1510.03009)  
-- 2015 arXiv[Resiliency of Deep Neural Networks under Quantization](https://arxiv.org/abs/1511.06488)  
+- 2015 arXiv [Resiliency of Deep Neural Networks under Quantization](https://arxiv.org/abs/1511.06488)  
+- 2015 arXiv [Rounding Methods for Neural Networks with Low Resolution Synaptic Weights](https://arxiv.org/abs/1504.05767)  
 - 2015 NIPS [Backpropagation for Energy-Efficient Neuromorphic Computing](https://papers.nips.cc/paper/5862-backpropagation-for-energy-efficient-neuromorphic-computing.pdf)  
 - 2015 NIPS [BinaryConnect: Training Deep Neural Networks with binary weights during propagations](https://papers.nips.cc/paper/5647-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations.pdf)  
 - 2015 ICMLW [Bitwise Neural Networks](http://minjekim.com/papers/icml2015_mkim.pdf)  
@@ -103,6 +105,7 @@
 - 2016 NIPS [Learning Structured Sparsity in Deep Learning](https://arxiv.org/abs/1608.03665) \[[code](https://github.com/wenwei202/caffe/tree/scnn)\]  
 - 2016 NIPS [Dynamic Network Surgery for Efficient DNNs](http://128.84.21.199/abs/1608.04493)  
 - 2016 ECCV [Less is More: Towards Compact CNNs](https://static-content.springer.com/esm/chp%3A10.1007%2F978-3-319-46493-0_40/MediaObjects/419976_1_En_40_MOESM1_ESM.pdf)  
+- 2016 CVPR [Quantized Convolutional Neural Networks for Mobile Devices](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Wu_Quantized_Convolutional_Neural_CVPR_2016_paper.pdf)  
 - 2016 CVPR [Fast ConvNets Using Group-wise Brain Damage](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lebedev_Fast_ConvNets_Using_CVPR_2016_paper.pdf)  
 - 2016 ICLR [Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding](http://arxiv.org/abs/1510.00149)  
 - 2016 ICLR [Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications](http://arxiv.org/abs/1511.06530)
@@ -127,5 +130,6 @@ using Vector Quantization](http://arxiv.org/abs/1412.6115)
 - 2014 CVPR [CNN Features off-the-shelf: an Astounding Baseline for Recognition](http://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W15/papers/Razavian_CNN_Features_Off-the-Shelf_2014_CVPR_paper.pdf)  
 
 ## Hardware
+- 2017 ASPLOS [SC-DCNN: Highly-Scalable Deep Convolutional Neural Network using Stochastic Computing](https://arxiv.org/pdf/1611.05939.pdf)  
 - 2017 FPGA [Can FPGAs Beat GPUs in Accelerating Next-Generation Deep Neural Networks](http://jaewoong.org/pubs/fpga17-next-generation-dnns.pdf)  
 - 2015 NIPS Tutorial [High-Performance Hardware for Machine Learning](https://media.nips.cc/Conferences/2015/tutorialslides/Dally-NIPS-Tutorial-2015.pdf)  
