@@ -14,7 +14,7 @@ Graphs](http://web.stanford.edu/~hallac/Network_Lasso.pdf)
 - 2010 NIPS [Parallelized Stochastic Gradient Descent](http://martin.zinkevich.org/publications/nips2010.pdf) | [video](http://videosrv14.cs.washington.edu/info/videos/mp4/colloq/AAgarwal_140210.mp4) (One-Short)  
 - 2010 NAACL [Distributed Training Strategies for the Structured Perceptron](http://www.cslu.ogi.edu/~bedricks/courses/cs506-pslc/articles/week3/dpercep.pdf)   
 - 2009 NIPS [Efficient Large-Scale Distributed Training of Conditional Maximum Entropy Models](http://www.ryanmcd.com/papers/efficient_maxentNIPS2009.pdf)  
-- 2009 NIPS [Slow Learners are Fast](http://papers.nips.cc/paper/3888-slow-learners-are-fast.pdf) 
+- 2009 NIPS [Slow Learners are Fast](http://papers.nips.cc/paper/3888-slow-learners-are-fast.pdf)
 
 ### Communication Efficiency, Complexity, Delay, Latency
 - 2014 ATC [Exploiting bounded staleness to speed up Big Data analytics](https://www.usenix.org/system/files/conference/atc14/atc14-paper-cui.pdf)  
@@ -26,7 +26,7 @@ Graphs](http://web.stanford.edu/~hallac/Network_Lasso.pdf)
 - 2012 NIPS [Communication-Efficient Algorithms for Statistical Optimization](http://papers.nips.cc/paper/4728-communication-efficient-algorithms-for-statistical-optimization.pdf)  
 - 2011 NIPS [Distributed Delayed Stochastic Optimization](http://papers.nips.cc/paper/4247-distributed-delayed-stochastic-optimization.pdf)  
 
-### Distributed Mini-Batching 
+### Distributed Mini-Batching
 <!--- 2015 [Explorations in Parallel Distributed Processing: A Handbook of Models, Programs, and Exercises](http://web.stanford.edu/group/pdplab/pdphandbook/)  -->
 - 2014 KDD [Efficient Mini-batch Training for Stochastic Optimization](http://www.cs.cmu.edu/~muli/file/minibatch_sgd.pdf)  
 - 2012 JMLR [Optimal Distributed Online Prediction Using Mini-Batches](http://jmlr.org/papers/volume13/dekel12a/dekel12a.pdf)  

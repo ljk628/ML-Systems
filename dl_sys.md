@@ -1,7 +1,7 @@
-## Deep Learning Systems
+# Deep Learning Systems
 
 
-### General Frameworks
+## General Frameworks
 - **[Caffe](http://caffe.berkeleyvision.org/)**  
 	2015 [Large Scale Distributed Deep Learning on Hadoop Clusters](http://yahoohadoop.tumblr.com/post/129872361846/large-scale-distributed-deep-learning-on-hadoop)  
 	2014 MM [Caffe: Convolutional Architecture for Fast Feature Embedding](http://arxiv.org/abs/1408.5093)  
@@ -21,6 +21,8 @@
 
 - **[Paddle](http://www.paddlepaddle.org/)**
 
+- **[PyTorch](http://pytorch.org/)**
+
 - **[Spark](https://github.com/amplab/SparkNet)**  
 	2016 arXiv [SparkNet: Training Deep Networks in Spark](http://arxiv.org/abs/1511.06051)  
 	2016 arXiv [DeepSpark: A Spark-Based Distributed Deep Learning Framework for Commodity Clusters](https://arxiv.org/abs/1602.08191)  
@@ -39,16 +41,16 @@
 	2016 NIPSW [Torchnet: An Open-Source Platform for (Deep) Learning Research](https://lvdmaaten.github.io/publications/papers/Torchnet_2016.pdf)   
 	2011 NIPSW [Torch7: A Matlab-like Environment for Machine Learning](http://cs.nyu.edu/~koray/files/2011_torch7_nipsw.pdf)  
 
-### Speicific System
+## Specific System
 - 2016 ICML [Deep Speech 2: End-to-End Speech Recognition in English and Mandarin](http://arxiv.org/abs/1512.02595)  
 - 2015 ICMLW [Massively Parallel Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1507.04296)  
 - 2015 arXiv [Deep Image: Scaling up Image Recognition](http://arxiv.org/abs/1501.02876)  
 - 2013 ICML [Deep learning with COTS HPC systems](http://jmlr.org/proceedings/papers/v28/coates13.pdf)
 
-### Parallization
+## Parallelization
 - 2015 Intel [Single Node Caffe Scoring and Training on Intel® Xeon E5-Series Processors](https://software.intel.com/en-us/articles/single-node-caffe-scoring-and-training-on-intel-xeon-e5-series-processors)  
 - 2015 arXiv [Caffe con Troll: Shallow Ideas to Speed Up Deep Learning](http://arxiv.org/abs/1504.04343)  
-- 2015 ICMLW [Massively Parallel Methods for Deep Reinforcement Learning](https://8109f4a4-a-62cb3a1a-s-sites.googlegroups.com/site/deeplearning- 2015/1.pdf?attachauth=ANoY7cocCvmoqZlkfUFQkSwV8fULURfVSzDdFv0dyk8uU1ztfeCHFIK4Kb6JoEQ3iZLUiYBynddwePUhd-3ssJZkANn-PXFU7m1U_wE5Eb4eHbZj3YR41bLF1AEr5T5EDth97i9DdkipHses1XTMDu_wpw8zs0-RGb7WVQRF8ZOhvG1AW47CRkAI8X0iv-oLtWy9fGSSa-JR9JpSwFUtjt_0_UXu4BUUwg==&attredirects=0)  
+- 2015 ICMLW [Massively Parallel Methods for Deep Reinforcement Learning](https://8109f4a4-a-62cb3a1a-s-sites.googlegroups.com/site/deeplearning-2015/1.pdf?attachauth=ANoY7cocCvmoqZlkfUFQkSwV8fULURfVSzDdFv0dyk8uU1ztfeCHFIK4Kb6JoEQ3iZLUiYBynddwePUhd-3ssJZkANn-PXFU7m1U_wE5Eb4eHbZj3YR41bLF1AEr5T5EDth97i9DdkipHses1XTMDu_wpw8zs0-RGb7WVQRF8ZOhvG1AW47CRkAI8X0iv-oLtWy9fGSSa-JR9JpSwFUtjt_0_UXu4BUUwg==&attredirects=0)  
 - 2015 arXiv [Convolutional Neural Networks at Constrained Time Cost](http://arxiv.org/pdf/1412.1710v1.pdf)  
 - 2014 arXiv [One weird trick for parallelizing convolutional neural networks](http://arxiv.org/pdf/1404.5997v2.pdf)  
 - 2014 NIPS [On the Computational Efficiency of Training Neural Networks](http://papers.nips.cc/paper/5267-on-the-computational-efficiency-of-training-neural-networks.pdf)  

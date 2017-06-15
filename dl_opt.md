@@ -1,11 +1,13 @@
 # Optimization for Deep Learning
 
 - [General](#general)  
+- [Loss Surface](#loss-surface)
 - [Distributed Optimization](#distributed-optimization)  
+- [Initialization](#initialization)  
 - [Learning Rate](#learning-rate)  
 - [Batch Size](#batch-size)
+- [Normalization](#normalization)
 - [Regularization](#regularization)
-- [Loss Surface](#loss-surface)
 - [Meta Learning](#meta-learning)
 
 ## General
@@ -27,6 +29,7 @@
 - 2014 NIPS [Identifying and attacking the saddle point problem in high-dimensional non-convex optimization](http://papers.nips.cc/paper/5486-identifying-and-attacking-the-saddle-point-problem-in-high-dimensional-non-convex-optimization.pdf)  
 
 ## Distributed Optimization  
+- 2017 arXiv [Accurate, Large Minibatch SGD:Training ImageNet in 1 Hour](https://arxiv.org/abs/1706.02677)  
 - 2016 ICML [Training Neural Networks Without Gradients: A Scalable ADMM Approach](http://jmlr.org/proceedings/papers/v48/taylor16.pdf)  
 - 2016 IJCAI [Staleness-aware Async-SGD for Distributed Deep Learning](http://www.ijcai.org/Proceedings/16/Papers/335.pdf)  
 - 2016 ICLRW [Revisiting Distributed Synchronous SGD](http://arxiv.org/abs/1604.00981)  
@@ -37,17 +40,23 @@
 ## Initialization
 - 2016 ICLR [All You Need is a Good Init](https://arxiv.org/pdf/1511.06422.pdf)  
 - 2016 ICLR [Data-dependent Initializations of Convolutional Neural Networks](https://arxiv.org/pdf/1511.06856.pdf)  
+- 2015 ICCV [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](http://research.microsoft.com/en-us/um/people/kahe/publications/iccv15imgnet.pdf)  
+- 2014 ICLR [Exact solutions to the nonlinear dynamics of learning in deep linear neural networks](https://arxiv.org/pdf/1312.6120.pdf)  
+- 2010 AISTATS [Understanding the difficulty of training deep feedforward neural networks](http://jmlr.org/proceedings/papers/v9/glorot10a/glorot10a.pdf) (Xavier initialization)  
 
 ## Learning Rate  
 - 2017 ICLR [SGDR: Stochastic Gradient Descent with Restarts](https://openreview.net/pdf?id=Skq89Scxx)  
 
 ## Batch Size
+- 2017 arXiv [Accurate, Large Minibatch SGD:Training ImageNet in 1 Hour](https://arxiv.org/abs/1706.02677)  
+- 2017 ICML [Sharp Minima Can Generalize For Deep Nets](https://arxiv.org/abs/1703.04933)  
 - 2017 ICLR [On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima](https://openreview.net/pdf?id=H1oyRlYgg)  
 
 ## Noise
 - 2015 arXiv [Adding Gradient Noise Improves Learning for Very Deep Networks](http://arxiv.org/abs/1511.06807)      
 
 ## Normalization
+- 2017 arXiv [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)  
 - 2016 NIPS [Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks](https://arxiv.org/pdf/1602.07868.pdf)  
 - 2016 NIPS [Layer Normalization](https://arxiv.org/pdf/1607.06450.pdf)  
 - 2015 ICML [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://jmlr.org/proceedings/papers/v37/ioffe15.pdf)  
