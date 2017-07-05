@@ -1,21 +1,19 @@
 # Convolutional Neural Networks
 
-- [Theory](#theory)
 - [ImageNet Models](#imagenet-models)  
 - [Architecture Design](#architecture-design)
+- [Activation Functions](#activation-functions)
 - [Visualization](#visualization)
 - [Fast Convolution](#fast-convolution)
 - [Low-Rank Filter Approximation](#low-rank-filter-approximation)
 - [Low Precision](#low-precision)  
 - [Parameter Pruning](#parameter-pruning)  
 - [Transfer Learning](#transfer-learning)  
+- [Theory](#theory)
 - [Hardware](#hardware)  
 
-## Theory
-
-- 2016 arXiv [Understanding Deep Convolutional Networks](https://arxiv.org/pdf/1601.04920.pdf)  
-
 ## ImageNet Models  
+- 2017 CVPR [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf) (ResNeXt)  
 - 2016 ECCV [Identity Mappings in Deep Residual Networks](https://arxiv.org/abs/1603.05027) (Pre-ResNet)   
 - 2016 arXiv [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](http://arxiv.org/abs/1602.07261) (Inception V4)  
 - 2016 CVPR [Deep Residual Learning for Image Recognition](http://arxiv.org/abs/1512.03385) (ResNet)     
@@ -27,8 +25,11 @@
 - 2012 NIPS [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (AlexNet)  
 
 ## Architecture Design
+- 2017 arXiv [One Model To Learn Them All](https://arxiv.org/abs/1706.05137)  
 - 2017 arXiv [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861)  
 - 2017 ICML [Large-Scale Evolution of Image Classifiers](https://arxiv.org/abs/1703.01041)  
+- 2017 CVPR [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf)  
+- 2017 ICLR [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://openreview.net/pdf?id=B1ckMDqlg)  
 - 2017 ICLR [Neural Architecture Search with Reinforcement Learning](https://openreview.net/pdf?id=r1Ue8Hcxg)  
 - 2017 ICLR [Designing Neural Network Architectures using Reinforcement Learning](https://openreview.net/pdf?id=S1c2cvqee)  
 - 2017 ICLR [Do Deep Convolutional Nets Really Need to be Deep and Convolutional?](https://arxiv.org/abs/1603.05691)  
@@ -40,6 +41,7 @@
 - 2016 arXiv [SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <1MB model size](http://arxiv.org/abs/1602.07360)  
 - 2015 ICMLW [Highway Networks](http://arxiv.org/pdf/1505.00387v2.pdf)  
 - 2015 CVPR [Convolutional Neural Networks at Constrained Time Cost](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/He_Convolutional_Neural_Networks_2015_CVPR_paper.pdf)   
+- 2015 CVPR [Fully Convolutional Networks for Semantic Segmentation](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)  
 - 2014 NIPS [Do Deep Nets Really Need to be Deep?](http://papers.nips.cc/paper/5484-do-deep-nets-really-need-to-be-deep.pdf)  
 - 2014 ICLRW [Understanding Deep Architectures using a Recursive Convolutional Network](http://arxiv.org/abs/1312.1847)  
 - 2013 ICML [Making a Science of Model Search: Hyperparameter Optimization in Hundreds of Dimensions for Vision Architectures](http://jmlr.org/proceedings/papers/v28/bergstra13.pdf)  
@@ -47,13 +49,20 @@
 - 1995 NIPS [Simplifying Neural Nets by Discovering Flat Minima](https://papers.nips.cc/paper/899-simplifying-neural-nets-by-discovering-flat-minima.pdf)  
 - 1994 T-NN [SVD-NET: An Algorithm that Automatically Selects Network Structure](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=286929)  
 
-## Visualization
+## Activation Functions
+- 2017 arXiv [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515) (SELU)  
+- 2016 ICLR [Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)](https://arxiv.org/pdf/1511.07289.pdf) (ELU)  
+- 2015 arXiv [Empirical Evaluation of Rectified Activations in Convolutional Network](https://arxiv.org/pdf/1505.00853.pdf) (RReLU)
+- 2015 ICCV [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](http://research.microsoft.com/en-us/um/people/kahe/publications/iccv15imgnet.pdf) (PReLU)
+- 2013 ICML [Rectifier Nonlinearities Improve Neural Network Acoustic Models](https://pdfs.semanticscholar.org/367f/2c63a6f6a10b3b64b8729d601e69337ee3cc.pdf)  
+- 2010 ICML [Rectified Linear Units Improve Restricted Boltzmann Machines](http://www.cs.toronto.edu/~fritz/absps/reluICML.pdf) (ReLU)  
 
+## Visualization  
+- 2017 CVPR [Network Dissection: Quantifying Interpretability of Deep Visual Representations](http://netdissect.csail.mit.edu/final-network-dissection.pdf)  
 - 2015 ICMLW [Understanding Neural Networks Through Deep Visualization](http://yosinski.com/media/papers/Yosinski__2015__ICML_DL__Understanding_Neural_Networks_Through_Deep_Visualization__.pdf)  
 - 2014 ECCV [Visualizing and Understanding Convolutional Networks](https://www.cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)  
 
 ## Fast Convolution
-
 - 2017 ICLR [Faster CNNs with Direct Sparse Convolutions and Guided Pruning](https://openreview.net/pdf?id=rJPcZ3txx)  
 - 2016 NIPS [PerforatedCNNs: Acceleration through Elimination of Redundant Convolutions](http://arxiv.org/abs/1504.08362)  
 - 2016 CVPR [Fast Algorithms for Convolutional Neural Networks](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lavin_Fast_Algorithms_for_CVPR_2016_paper.pdf) (Winograd)  
@@ -71,10 +80,12 @@
 - 2013 CVPR [Learning Separable Filters](http://cvlabwww.epfl.ch/~lepetit/papers/rigamonti_cvpr13.pdf)  
 
 ## Low Precision  
+- 2017 arXiv [Gradient Descent for Spiking Neural Networks](https://arxiv.org/abs/1706.04698)  
 - 2017 arXiv [Training Quantized Nets: A Deeper Understanding](https://arxiv.org/abs/1706.02379)  
 - 2017 arXiv [ShiftCNN: Generalized Low-Precision Architecture for Inference of Convolutional Neural Networks](https://arxiv.org/abs/1706.02393)  
 - 2017 arXiv [Gated XNOR Networks: Deep Neural Networks with Ternary Weights and Activations under a Unified Discretization Framework](https://arxiv.org/abs/1705.09283)  
 - 2017 arXiv [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning](https://arxiv.org/abs/1705.07878)  
+- 2017 arXiv [The High-Dimensional Geometry of Binary Neural Networks](https://arxiv.org/pdf/1705.07199.pdf)  
 - 2017 arXiv [Deep Learning with Low Precision by Half-wave Gaussian Quantization](https://arxiv.org/abs/1702.00953)    
 - 2017 ICLR [Towards the Limit of Network Quantization](https://openreview.net/pdf?id=rJ8uNptgl)  
 - 2017 ICLR [Loss-aware Binarization of Deep Networks](https://openreview.net/pdf?id=S1oWlN9ll)  
@@ -82,6 +93,7 @@
 - 2017 ICLR [Incremental Network Quantization: Towards Lossless CNNs with Low-precision Weights](https://openreview.net/pdf?id=HyQJ-mclg)  
 - 2016 arXiv [Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations](https://arxiv.org/abs/1609.07061)  
 - 2016 arXiv [Accelerating Deep Convolutional Networks using low-precision and sparsity](https://arxiv.org/abs/1610.00324)  
+- 2016 arXiv [Deep neural networks are robust to weight binarization and other non-linear distortions](https://arxiv.org/pdf/1606.01981.pdf)  
 - 2016 ECCV [XNOR-Net: ImageNet Classification Using Binary Convolutional Neural Networks](https://arxiv.org/pdf/1603.05279.pdf)  
 - 2016 ICMLW [Overcoming Challenges in Fixed Point Training of Deep Convolutional Networks](https://arxiv.org/pdf/1607.02241.pdf)  
 - 2016 ICML [Fixed Point Quantization of Deep Convolutional Networks](http://jmlr.org/proceedings/papers/v48/linb16.pdf)  
@@ -99,7 +111,7 @@
 - 2014 NIPS [Expectation Backpropagation: Parameter-Free Training of Multilayer Neural Networks with Continuous or Discrete Weights](https://papers.nips.cc/paper/5269-expectation-backpropagation-parameter-free-training-of-multilayer-neural-networks-with-continuous-or-discrete-weights.pdf)  
 - 2013 arXiv [Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation](https://arxiv.org/pdf/1308.3432.pdf)  
 - 2011 NIPSW [Improving the speed of neural networks on CPUs](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37631.pdf)  
-
+- 1987 Combinatorica [Randomized rounding: A technique for provably good algorithms and algorithmic proofs](https://www.cs.auckland.ac.nz/~cthombor/Pubs/RandomRounding/RandomRounding1987.pdf)  
 
 ## Parameter Pruning  
 - 2017 ICLR [Soft Weight-Sharing for Neural Network Compression](https://openreview.net/pdf?id=HJGwcKclx)  
@@ -133,6 +145,10 @@
 - 2016 arXiv [What makes ImageNet good for transfer learning?](https://arxiv.org/abs/1608.08614)  
 - 2014 NIPS [How transferable are features in deep neural networks?](https://arxiv.org/pdf/1411.1792v1.pdf)  
 - 2014 CVPR [CNN Features off-the-shelf: an Astounding Baseline for Recognition](http://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W15/papers/Razavian_CNN_Features_Off-the-Shelf_2014_CVPR_paper.pdf)  
+- 2014 ICML [DeCAF: A Deep Convolutional Activation](http://proceedings.mlr.press/v32/donahue14.pdf)  
+
+## Theory
+- 2016 arXiv [Understanding Deep Convolutional Networks](https://arxiv.org/pdf/1601.04920.pdf)  
 
 ## Hardware
 - 2017 ASPLOS [SC-DCNN: Highly-Scalable Deep Convolutional Neural Network using Stochastic Computing](https://arxiv.org/pdf/1611.05939.pdf)  
