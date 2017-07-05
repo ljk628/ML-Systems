@@ -13,7 +13,7 @@
 - **[MXNet](http://mxnet.dmlc.ml/en/latest/)**  
 	2016 arXiv [Training Deep Nets with Sublinear Memory Cost](https://arxiv.org/abs/1604.06174)   	
 	2015 NIPSW [MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems](http://www.cs.cmu.edu/~muli/file/mxnet-learning-sys.pdf) [[GTC'16  Tutorial](http://www.cs.cmu.edu/~muli/file/mxnet_gtc16.pdf)]    
-	2014 NIPSW [Minerva: A Scalable and Highly Efficient Training Platform for Deep Learning](http://stanford.edu/~rezab/nips- 2014workshop/submits/minerva.pdf)  
+	2014 NIPSW [Minerva: A Scalable and Highly Efficient Training Platform for Deep Learning](http://stanford.edu/~rezab/nips-2014workshop/submits/minerva.pdf)  
 	2014 ICLR [Purine: A bi-graph based deep learning framework](http://arxiv.org/abs/1412.6249)  
 
 - **[Neon](https://www.nervanasys.com/technology/neon/)**   
@@ -30,7 +30,7 @@
 - **[TensorFlow](https://www.tensorflow.org/)**  
 	2016 OSDI [BigArray: A System for Large-Scale Machine Learning]()  
 	2016 arXiv [TensorFlow: A system for large-scale machine learning](http://arxiv.org/abs/1605.08695)  
-	2015 [TensorFlow:Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf) [[slides 1]](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/BayLearn- 2015.pdf) [[slides 2]](http://vision.stanford.edu/teaching/cs231n/slides/jon_talk.pdf)  		
+	2015 [TensorFlow:Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf) [[slides 1]](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/BayLearn-2015.pdf) [[slides 2]](http://vision.stanford.edu/teaching/cs231n/slides/jon_talk.pdf)  		
 	2012 NIPS [Large Scale Distributed Deep Networks](http://static.googleusercontent.com/media/research.google.com/en/us/archive/large_deep_networks_nips2012.pdf) (DistBelief)  
 	2014 NIPSW [Techniques and Systems for Training Large Neural Networks Quickly](http://stanford.edu/~rezab/nips2014workshop/slides/jeff.pdf)  
 

@@ -3,6 +3,7 @@
 
 A collection of papers on recent progress in machine learning systems, covering following topics:
 
+## Contents
 1. Distributed Machine Learning
 	- [Distributed Optimization](dist_ml.md#distributed-optimization)
 	- [Distributed ML Systems](dist_ml.md#distributed-ml-systems)
