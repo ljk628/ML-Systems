@@ -27,6 +27,7 @@
 ## Architecture Design
 - 2017 arXiv [One Model To Learn Them All](https://arxiv.org/abs/1706.05137)  
 - 2017 arXiv [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861)  
+- 2017 ICML [AdaNet: Adaptive Structural Learning of Artificial Neural Networks](https://arxiv.org/pdf/1607.01097.pdf)  
 - 2017 ICML [Large-Scale Evolution of Image Classifiers](https://arxiv.org/abs/1703.01041)  
 - 2017 CVPR [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf)  
 - 2017 ICLR [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://openreview.net/pdf?id=B1ckMDqlg)  
@@ -63,6 +64,7 @@
 - 2014 ECCV [Visualizing and Understanding Convolutional Networks](https://www.cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)  
 
 ## Fast Convolution
+- 2017 ICML [Warped Convolutions: Efficient Invariance to Spatial Transformations](https://arxiv.org/pdf/1609.04382.pdf)  
 - 2017 ICLR [Faster CNNs with Direct Sparse Convolutions and Guided Pruning](https://openreview.net/pdf?id=rJPcZ3txx)  
 - 2016 NIPS [PerforatedCNNs: Acceleration through Elimination of Redundant Convolutions](http://arxiv.org/abs/1504.08362)  
 - 2016 CVPR [Fast Algorithms for Convolutional Neural Networks](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lavin_Fast_Algorithms_for_CVPR_2016_paper.pdf) (Winograd)  
@@ -148,9 +150,15 @@
 - 2014 ICML [DeCAF: A Deep Convolutional Activation](http://proceedings.mlr.press/v32/donahue14.pdf)  
 
 ## Theory
+- 2017 ICML [On the Expressive Power of Deep Neural Networks](https://arxiv.org/pdf/1606.05336v6.pdf)  
+- 2017 ICML [A Closer Look at Memorization in Deep Networks](https://arxiv.org/pdf/1706.05394.pdf)  
+- 2017 ICML [An Analytical Formula of Population Gradient for two-layered ReLU network and its Applications in Convergence and Critical Point Analysis](https://arxiv.org/pdf/1703.00560.pdf)  
+- 2016 NIPS [Exponential expressivity in deep neural networks through transient chaos](https://papers.nips.cc/paper/6322-exponential-expressivity-in-deep-neural-networks-through-transient-chaos.pdf)  
 - 2016 arXiv [Understanding Deep Convolutional Networks](https://arxiv.org/pdf/1601.04920.pdf)  
+- 2014 NIPS [On the number of linear regions of deep neural networks](http://papers.nips.cc/paper/5422-on-the-number-of-linear-regions-of-deep-neural-networks.pdf)  
 
 ## Hardware
+- 2017 ISVLSI [YodaNN: An ultra-low power convolutional neural network accelerator based on binary weights](https://arxiv.org/pdf/1606.05487.pdf)  
 - 2017 ASPLOS [SC-DCNN: Highly-Scalable Deep Convolutional Neural Network using Stochastic Computing](https://arxiv.org/pdf/1611.05939.pdf)  
 - 2017 FPGA [Can FPGAs Beat GPUs in Accelerating Next-Generation Deep Neural Networks](http://jaewoong.org/pubs/fpga17-next-generation-dnns.pdf)  
 - 2015 NIPS Tutorial [High-Performance Hardware for Machine Learning](https://media.nips.cc/Conferences/2015/tutorialslides/Dally-NIPS-Tutorial-2015.pdf)  

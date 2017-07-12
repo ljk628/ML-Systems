@@ -57,11 +57,16 @@
 - 2010 AISTATS [Understanding the difficulty of training deep feedforward neural networks](http://jmlr.org/proceedings/papers/v9/glorot10a/glorot10a.pdf) (Xavier initialization)  
 
 ## Loss Surface
+- 2017 ICML [The Loss Surface of Deep and Wide Neural Networks](https://arxiv.org/pdf/1704.08045.pdf)  
+- 2017 ICML [Geometry of Neural Network Loss Surfaces via Random Matrix Theory]()  
 - 2017 ICML [Sharp Minima Can Generalize For Deep Nets](https://arxiv.org/pdf/1703.04933.pdf)    
 - 2017 ICLR [Entropy-SGD: Biasing Gradient Descent Into Wide Valleys](https://arxiv.org/pdf/1611.01838.pdf)  
 - 2017 ICLR [On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima](https://openreview.net/pdf?id=H1oyRlYgg)  
 - 2015 AISTATS [The Loss Surfaces of Multilayer Networks](http://www.jmlr.org/proceedings/papers/v38/choromanska15.pdf)  
 - 2014 NIPS [Identifying and attacking the saddle point problem in high-dimensional non-convex optimization](http://papers.nips.cc/paper/5486-identifying-and-attacking-the-saddle-point-problem-in-high-dimensional-non-convex-optimization.pdf)  
+
+## Low Precision
+- 2017 ICML [Training Models with End-to-End Low Precision: The Cans, the Cannots, and a Little Bit of Deep Learning](https://arxiv.org/pdf/1611.05402.pdf)  
 
 ## Noise
 - 2015 arXiv [Adding Gradient Noise Improves Learning for Very Deep Networks](http://arxiv.org/abs/1511.06807)      
@@ -71,6 +76,7 @@
 - 2017 arXiv [Batch Renormalization: Towards Reducing Minibatch Dependence in Batch-Normalized Models](https://arxiv.org/abs/1702.03275)  
 - 2016 NIPS [Weight Normalization: A Simple Reparameterization to Accelerate Training of Deep Neural Networks](https://arxiv.org/pdf/1602.07868.pdf)  
 - 2016 NIPS [Layer Normalization](https://arxiv.org/pdf/1607.06450.pdf)  
+- 2016 ICML [Normalization Propagation: A Parametric Technique for Removing Internal Covariate Shift in Deep Networks](https://arxiv.org/pdf/1603.01431.pdf)    
 - 2016 ICLR [Data-Dependent Path Normalization in Neural Networks](http://arxiv.org/pdf/1511.06747v4.pdf)  
 - 2015 NIPS [Path-SGD: Path-Normalized Optimization in Deep Neural Networks](http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2015_5797.pdf)  
 - 2015 ICML [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](http://jmlr.org/proceedings/papers/v37/ioffe15.pdf)  
@@ -80,10 +86,17 @@
 - 2014 JMLR [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) (Dropout)   
 
 ## Meta-Learning  
+- 2017 ICML [Neural Optimizer Search with Reinforcement Learning]()  
+- 2017 ICML [Learned Optimizers that Scale and Generalize](https://arxiv.org/pdf/1703.04813.pdf)  
+- 2017 ICML [Learning to Learn without Gradient Descent by Gradient Descent](http://www.cantab.net/users/yutian.chen/Publications/ChenEtAl_ICML17_L2L.pdf)  
 - 2017 ICLR [Learning to Optimize](https://openreview.net/pdf?id=ry4Vrt5gl)  
 - 2016 arXiv [Learning to reinforcement learn](https://arxiv.org/abs/1611.05763)  
 - 2016 NIPSW [Learning to Learn for Global Optimization of Black Box Functions](https://arxiv.org/abs/1611.03824)  
 - 2016 NIPS [Learning to learn by gradient descent by gradient descent](https://arxiv.org/abs/1606.04474)    
+- 2016 ICML [Meta-learning with memory-augmented neural networks](http://proceedings.mlr.press/v48/santoro16.pdf)  
+
+## Hyperparameter
+- 2015 ICML [Gradient-based hyperparameter optimization through reversible learning](https://www.robots.ox.ac.uk/~vgg/rg/papers/MaclaurinICML15.pdf)  
 
 ## Bayesian Optimization  
 - 2012 [Practical Bayesian Optimization of Machine Learning Algorithms](https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf)  
