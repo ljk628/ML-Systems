@@ -1,10 +1,9 @@
 # Distributed Machine Learning
 
-- [Distributed Optimization](distributed-optimization)  
-- [Distributed ML Systems](distributed-ml-systems)
+- [Distributed Optimization](#distributed-optimization)  
+- [Distributed ML Systems](#distributed-ml-systems)
 
 ## Distributed Optimization
-
 - 2016 ICDM [Efficient Distributed SGD with Variance Reduction](https://arxiv.org/pdf/1512.02970.pdf)  
 - 2016 KDD [Robust Large-Scale Machine Learning in the Cloud](http://www.kdd.org/kdd2016/papers/files/Paper_801.pdf)
 - 2015 KDD [Netowrk Lasso: Clustering and Optimization in Large
@@ -33,7 +32,6 @@ Graphs](http://web.stanford.edu/~hallac/Network_Lasso.pdf)
 - 2011 ICML [Optimal Distributed Online Prediction](http://www.icml-2011.org/papers/404_icmlpaper.pdf)  
 - 2011 NIPS [Better Mini-Batch Algorithms via Accelerated Gradient Methods](http://papers.nips.cc/paper/4432-better-mini-batch-algorithms-via-accelerated-gradient-methods.pdf)  
 
-
 ### Distributed Consensus
 - 2016 ICLRW [Revisiting Distributed Synchronous SGD](http://arxiv.org/abs/1604.00981)  
 - 2014 [Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers](http://web.stanford.edu/~boyd/papers/admm_distr_stats.html) (ADMM)  
@@ -45,7 +43,6 @@ Convergence Analysis and Network Scaling](http://www.eecs.berkeley.edu/~wainwrig
 
 
 ## Distributed ML Systems  
-
 - 2014 APSys [A Scalable and Topology Configurable Protocol for Distributed Parameter Synchronization](http://research.microsoft.com/pubs/219927/main.pdf)  
 - 2014 ICML Tutorial [Emerging System for Large-Scale Machine Learning](http://www.cs.berkeley.edu/~jegonzal/talks/icml14_sysml.pdf)  
 - 2013 Distributed Computing [When distributed computation is communication expensive](http://arxiv.org/abs/1304.4636)    
