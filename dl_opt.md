@@ -7,6 +7,7 @@
 - [Initialization](#initialization)  
 - [Learning Rate](#learning-rate)  
 - [Loss Surface](#loss-surface)
+- [Low Precision](#low-precision)
 - [Normalization](#normalization)
 - [Regularization](#regularization)
 - [Meta Learning](#meta-learning)
@@ -32,6 +33,7 @@
 - 2011 JMLR [Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf) (Adagrad)  
 
 ## Batch Size
+- 2017 arXiv [Scaling SGD Batch Size to 32K for ImageNet Training](https://arxiv.org/pdf/1708.03888.pdf)  
 - 2017 arXiv [Accurate, Large Minibatch SGD:Training ImageNet in 1 Hour](https://arxiv.org/abs/1706.02677)  
 - 2017 ICML [Sharp Minima Can Generalize For Deep Nets](https://arxiv.org/abs/1703.04933)  
 - 2017 ICLR [On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima](https://openreview.net/pdf?id=H1oyRlYgg)  
@@ -58,7 +60,7 @@
 
 ## Loss Surface
 - 2017 ICML [The Loss Surface of Deep and Wide Neural Networks](https://arxiv.org/pdf/1704.08045.pdf)  
-- 2017 ICML [Geometry of Neural Network Loss Surfaces via Random Matrix Theory]()  
+- 2017 ICML [Geometry of Neural Network Loss Surfaces via Random Matrix Theory](http://proceedings.mlr.press/v70/pennington17a/pennington17a.pdf)  
 - 2017 ICML [Sharp Minima Can Generalize For Deep Nets](https://arxiv.org/pdf/1703.04933.pdf)    
 - 2017 ICLR [Entropy-SGD: Biasing Gradient Descent Into Wide Valleys](https://arxiv.org/pdf/1611.01838.pdf)  
 - 2017 ICLR [On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima](https://openreview.net/pdf?id=H1oyRlYgg)  
@@ -66,7 +68,13 @@
 - 2014 NIPS [Identifying and attacking the saddle point problem in high-dimensional non-convex optimization](http://papers.nips.cc/paper/5486-identifying-and-attacking-the-saddle-point-problem-in-high-dimensional-non-convex-optimization.pdf)  
 
 ## Low Precision
-- 2017 ICML [Training Models with End-to-End Low Precision: The Cans, the Cannots, and a Little Bit of Deep Learning](https://arxiv.org/pdf/1611.05402.pdf)  
+- 2017 arXiv [Gradient Descent for Spiking Neural Networks](https://arxiv.org/abs/1706.04698)  
+- 2017 arXiv [Training Quantized Nets: A Deeper Understanding](https://arxiv.org/abs/1706.02379)  
+- 2017 arXiv [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning](https://arxiv.org/abs/1705.07878)  
+- 2017 ICML [ZipML: Training Linear Models with End-to-End Low Precision](http://proceedings.mlr.press/v70/zhang17e/zhang17e.pdf)  
+- 2016 arXiv [QSGD: Communication-Optimal Stochastic Gradient Descent, with Applications to Training Neural Networks](https://arxiv.org/pdf/1610.02132.pdf)  
+- 2015 NIPS [Taming the Wild: A Unified Analysis of Hogwild!-Style Algorithms](https://pdfs.semanticscholar.org/a1d2/1f6c8eef605bf132179daf717a232774b375.pdf)  
+- 2013 arXiv [Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation](https://arxiv.org/pdf/1308.3432.pdf)  
 
 ## Noise
 - 2015 arXiv [Adding Gradient Noise Improves Learning for Very Deep Networks](http://arxiv.org/abs/1511.06807)      
@@ -100,6 +108,3 @@
 
 ## Bayesian Optimization  
 - 2012 [Practical Bayesian Optimization of Machine Learning Algorithms](https://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf)  
-
-## Stochastic Neurons
-- 2013 arXiv [Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation](https://arxiv.org/pdf/1308.3432.pdf)  
