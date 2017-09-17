@@ -10,6 +10,7 @@
 - [Parameter Pruning](#parameter-pruning)  
 - [Transfer Learning](#transfer-learning)  
 - [Theory](#theory)
+- [3D Data](#3d-data)
 - [Hardware](#hardware)  
 
 ## ImageNet Models  
@@ -86,11 +87,12 @@
 ## Low Precision  
 - 2017 arXiv [BitNet: Bit-Regularized Deep Neural Networks](https://arxiv.org/pdf/1708.04788.pdf)  
 - 2017 arXiv [Gradient Descent for Spiking Neural Networks](https://arxiv.org/abs/1706.04698)  
-- 2017 arXiv [Training Quantized Nets: A Deeper Understanding](https://arxiv.org/abs/1706.02379)  
 - 2017 arXiv [ShiftCNN: Generalized Low-Precision Architecture for Inference of Convolutional Neural Networks](https://arxiv.org/abs/1706.02393)  
 - 2017 arXiv [Gated XNOR Networks: Deep Neural Networks with Ternary Weights and Activations under a Unified Discretization Framework](https://arxiv.org/abs/1705.09283)  
-- 2017 arXiv [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning](https://arxiv.org/abs/1705.07878)  
 - 2017 arXiv [The High-Dimensional Geometry of Binary Neural Networks](https://arxiv.org/pdf/1705.07199.pdf)  
+- 2017 NIPS [Training Quantized Nets: A Deeper Understanding](https://arxiv.org/abs/1706.02379)  
+- 2017 NIPS [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning](https://arxiv.org/abs/1705.07878)  
+- 2017 ICML [Analytical Guarantees on Numerical Precision of Deep Neural Networks](http://proceedings.mlr.press/v70/sakr17a/sakr17a.pdf)  
 - 2017 arXiv [Deep Learning with Low Precision by Half-wave Gaussian Quantization](https://arxiv.org/abs/1702.00953)    
 - 2017 CVPR [Network Sketching: Exploiting Binary Structure in Deep CNNs](https://arxiv.org/pdf/1706.02021.pdf)  
 - 2017 CVPR [Local Binary Convolutional Neural Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Juefei-Xu_Local_Binary_Convolutional_CVPR_2017_paper.pdf)  
@@ -164,12 +166,18 @@
 - 2014 NIPS [On the number of linear regions of deep neural networks](http://papers.nips.cc/paper/5422-on-the-number-of-linear-regions-of-deep-neural-networks.pdf)
 - 2014 ICML [Provable Bounds for Learning Some Deep Representations](http://proceedings.mlr.press/v32/arora14.pdf)  
 - 2014 ICLR [On the number of response regions of deep feed forward networks with piece-wise linear activations](https://arxiv.org/pdf/1312.6098.pdf)   
+- 2014 ICLR [Revisiting natural gradient for deep networks](https://arxiv.org/pdf/1301.3584.pdf)  
 
-## 3D Object Recognition  
+## 3D Data
+- 2017 NIPS [PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space](https://arxiv.org/pdf/1706.02413.pdf)  
+- 2017 ICCV [Octree Generating Networks: Efficient Convolutional Architectures for High-resolution 3D Outputs](https://arxiv.org/pdf/1703.09438.pdf)  
 - 2017 SIGGRAPH [O-CNN: Octree-based Convolutional Neural Network for Understanding 3D Shapes](http://wang-ps.github.io/O-CNN_files/CNN3D.pdf)  
+- 2017 CVPR [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/pdf/1612.00593.pdf)  
 - 2017 CVPR [OctNet: Learning Deep 3D Representations at High Resolutions](https://arxiv.org/pdf/1611.05009.pdf)  
+- 2016 NIPS [FPNN: Field Probing Neural Networks for 3D Data](https://papers.nips.cc/paper/6416-fpnn-field-probing-neural-networks-for-3d-data.pdf)  
 - 2016 NIPS [Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling](https://jiajunwu.com/papers/3dgan_nips.pdf)  
 - 2015 ICCV [Multi-view Convolutional Neural Networks for 3D Shape Recognition](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Su_Multi-View_Convolutional_Neural_ICCV_2015_paper.pdf)  
+- 2015 BMVC [Sparse 3D convolutional neural networks](http://www.bmva.org/bmvc/2015/papers/paper150/paper150.pdf)  
 - 2015 CVPR [3D ShapeNets: A Deep Representation for Volumetric Shapes](http://3dshapenets.cs.princeton.edu/paper.pdf)  
 
 ## Hardware

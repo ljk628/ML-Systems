@@ -16,6 +16,7 @@ This is a collection of papers about recent progress in machine learning and sys
 		- [Parameter Pruning](dl_cnn.md#parameter-pruning)  
 		- [Transfer Learning](dl_cnn.md#transfer-learning)  
 		- [Theory](dl_cnn.md#theory)
+		- [3D Data](dl_cnn.md#3d-data)
 		- [Hardware](dl_cnn.md#hardware)  
 	- [Optimization for Deep Learning](dl_opt.md)
 		- [General](dl_opt.md#general)  
