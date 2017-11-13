@@ -85,6 +85,7 @@
 - 2013 CVPR [Learning Separable Filters](http://cvlabwww.epfl.ch/~lepetit/papers/rigamonti_cvpr13.pdf)  
 
 ## Low Precision  
+- 2017 arXiv [Mixed Precision Training](https://arxiv.org/pdf/1710.03740.pdf)
 - 2017 arXiv [BitNet: Bit-Regularized Deep Neural Networks](https://arxiv.org/pdf/1708.04788.pdf)  
 - 2017 arXiv [Gradient Descent for Spiking Neural Networks](https://arxiv.org/abs/1706.04698)  
 - 2017 arXiv [ShiftCNN: Generalized Low-Precision Architecture for Inference of Convolutional Neural Networks](https://arxiv.org/abs/1706.02393)  
@@ -93,13 +94,14 @@
 - 2017 NIPS [Training Quantized Nets: A Deeper Understanding](https://arxiv.org/abs/1706.02379)  
 - 2017 NIPS [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning](https://arxiv.org/abs/1705.07878)  
 - 2017 ICML [Analytical Guarantees on Numerical Precision of Deep Neural Networks](http://proceedings.mlr.press/v70/sakr17a/sakr17a.pdf)  
-- 2017 arXiv [Deep Learning with Low Precision by Half-wave Gaussian Quantization](https://arxiv.org/abs/1702.00953)    
+- 2017 CVPR [Deep Learning with Low Precision by Half-wave Gaussian Quantization](https://arxiv.org/abs/1702.00953)    
 - 2017 CVPR [Network Sketching: Exploiting Binary Structure in Deep CNNs](https://arxiv.org/pdf/1706.02021.pdf)  
 - 2017 CVPR [Local Binary Convolutional Neural Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Juefei-Xu_Local_Binary_Convolutional_CVPR_2017_paper.pdf)  
 - 2017 ICLR [Towards the Limit of Network Quantization](https://openreview.net/pdf?id=rJ8uNptgl)  
 - 2017 ICLR [Loss-aware Binarization of Deep Networks](https://openreview.net/pdf?id=S1oWlN9ll)  
 - 2017 ICLR [Trained Ternary Quantization](https://openreview.net/pdf?id=S1_pAu9xl)  
 - 2017 ICLR [Incremental Network Quantization: Towards Lossless CNNs with Low-precision Weights](https://openreview.net/pdf?id=HyQJ-mclg)  
+- 2017 AAAI [How to Train a Compact Binary Neural Network with High Accuracy? ](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjYwK75-bLXAhXKTSYKHRG_DkAQFggoMAA&url=https%3A%2F%2Faaai.org%2Focs%2Findex.php%2FAAAI%2FAAAI17%2Fpaper%2Fdownload%2F14619%2F14454&usg=AOvVaw2S-_PPueqpoUp5PvWduGKG)
 - 2016 arXiv [Quantized Neural Networks: Training Neural Networks with Low Precision Weights and Activations](https://arxiv.org/abs/1609.07061)  
 - 2016 arXiv [Accelerating Deep Convolutional Networks using low-precision and sparsity](https://arxiv.org/abs/1610.00324)  
 - 2016 arXiv [Deep neural networks are robust to weight binarization and other non-linear distortions](https://arxiv.org/pdf/1606.01981.pdf)  
@@ -158,6 +160,8 @@
 - 2014 ICML [DeCAF: A Deep Convolutional Activation](http://proceedings.mlr.press/v32/donahue14.pdf)  
 
 ## Theory
+- 2017 arXiv [When is a Convolutional Filter Easy to Learn?](https://arxiv.org/pdf/1709.06129.pdf)   
+- 2017 arXiv [Opening the black box of Deep Neural Networks via Information](https://arxiv.org/pdf/1703.00810.pdf)  
 - 2017 ICML [On the Expressive Power of Deep Neural Networks](https://arxiv.org/pdf/1606.05336v6.pdf)  
 - 2017 ICML [A Closer Look at Memorization in Deep Networks](https://arxiv.org/pdf/1706.05394.pdf)  
 - 2017 ICML [An Analytical Formula of Population Gradient for two-layered ReLU network and its Applications in Convergence and Critical Point Analysis](https://arxiv.org/pdf/1703.00560.pdf)  
