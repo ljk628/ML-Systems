@@ -186,6 +186,7 @@
 - 2015 CVPR [3D ShapeNets: A Deep Representation for Volumetric Shapes](http://3dshapenets.cs.princeton.edu/paper.pdf)  
 
 ## Hardware
+- 2017 ISCA [In-Datacenter Performance Analysis of a Tensor Processing Unit](https://arxiv.org/pdf/1704.04760.pdf) (TPU)    
 - 2017 ISVLSI [YodaNN: An ultra-low power convolutional neural network accelerator based on binary weights](https://arxiv.org/pdf/1606.05487.pdf)  
 - 2017 ASPLOS [SC-DCNN: Highly-Scalable Deep Convolutional Neural Network using Stochastic Computing](https://arxiv.org/pdf/1611.05939.pdf)  
 - 2017 FPGA [Can FPGAs Beat GPUs in Accelerating Next-Generation Deep Neural Networks](http://jaewoong.org/pubs/fpga17-next-generation-dnns.pdf)  
