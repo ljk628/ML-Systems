@@ -91,6 +91,7 @@
 - 2017 arXiv [ShiftCNN: Generalized Low-Precision Architecture for Inference of Convolutional Neural Networks](https://arxiv.org/abs/1706.02393)  
 - 2017 arXiv [Gated XNOR Networks: Deep Neural Networks with Ternary Weights and Activations under a Unified Discretization Framework](https://arxiv.org/abs/1705.09283)  
 - 2017 arXiv [The High-Dimensional Geometry of Binary Neural Networks](https://arxiv.org/pdf/1705.07199.pdf)  
+- 2017 NIPS [Flexpoint: An Adaptive Numerical Format for Efficient Training of Deep Neural Networks](https://arxiv.org/pdf/1711.02213.pdf)  
 - 2017 NIPS [Training Quantized Nets: A Deeper Understanding](https://arxiv.org/abs/1706.02379)  
 - 2017 NIPS [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning](https://arxiv.org/abs/1705.07878)  
 - 2017 ICML [Analytical Guarantees on Numerical Precision of Deep Neural Networks](http://proceedings.mlr.press/v70/sakr17a/sakr17a.pdf)  
