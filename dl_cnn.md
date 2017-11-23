@@ -63,8 +63,14 @@
 
 ## Visualization  
 - 2017 CVPR [Network Dissection: Quantifying Interpretability of Deep Visual Representations](http://netdissect.csail.mit.edu/final-network-dissection.pdf)  
+- 2016 IJCV [Visualizing Deep Convolutional Neural Networks Using Natural Pre-Images](https://arxiv.org/pdf/1512.02017.pdf)  
+- 2016 ICMLW [Multifaceted Feature Visualization: Uncovering the Different Types of Features Learned By Each Neuron in Deep Neural Networks](http://www.evolvingai.org/files/mfv_icml_workshop_16.pdf)  
+- 2016 CVPR [Inverting Visual Representations with Convolutional Networks](https://arxiv.org/pdf/1506.02753.pdf)  
 - 2015 ICMLW [Understanding Neural Networks Through Deep Visualization](http://yosinski.com/media/papers/Yosinski__2015__ICML_DL__Understanding_Neural_Networks_Through_Deep_Visualization__.pdf)  
+- 2015 CVPR [Understanding Deep Image Representations by Inverting Them](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Mahendran_Understanding_Deep_Image_2015_CVPR_paper.pdf)  
 - 2014 ECCV [Visualizing and Understanding Convolutional Networks](https://www.cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)  
+- 2014 ICLRW [Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps](https://arxiv.org/pdf/1312.6034.pdf)  
+- 2009 [Visualizing Higher-Layer Features of a Deep Network](https://www.researchgate.net/profile/Aaron_Courville/publication/265022827_Visualizing_Higher-Layer_Features_of_a_Deep_Network/links/53ff82b00cf24c81027da530.pdf)  
 
 ## Fast Convolution
 - 2017 ICML [Warped Convolutions: Efficient Invariance to Spatial Transformations](https://arxiv.org/pdf/1609.04382.pdf)  
