@@ -5,7 +5,7 @@
 - [Batch Size](#batch-size)
 - [Distributed Optimization](#distributed-optimization)  
 - [Initialization](#initialization)  
-- [Learning Rate](#learning-rate)  
+- [Generalization](#generalization)
 - [Loss Surface](#loss-surface)
 - [Low Precision](#low-precision)
 - [Normalization](#normalization)
@@ -18,7 +18,6 @@
 - 2016 Blog [An overview of gradient descent optimization algorithms](http://sebastianruder.com/optimizing-gradient-descent/index.html)  
 - 2015 DL Summer School [Non-Smooth, Non-Finite, and Non-Convex Optimization](http://www.iro.umontreal.ca/~memisevr/dlss2015/2015_DLSS_NonSmoothNonFiniteNonConvex.pdf)  
 - 2015 NIPS [Training Very Deep Networks](http://papers.nips.cc/paper/5850-training-very-deep-networks.pdf)  
-- 2015 ICLR [Qualitatively Characterizing Neural Network Optimization Problems](https://arxiv.org/pdf/1412.6544.pdf)  
 - 2015 AISTATS [Deeply-Supervised Nets](http://jmlr.org/proceedings/papers/v38/lee15a.pdf)  
 - 2014 OSLW [On the Computational Complexity of Deep Learning](http://lear.inrialpes.fr/workshop/osl2015/slides/osl2015_shalev_shwartz.pdf)  
 - 2011 ICML [On Optimization Methods for Deep Learning](http://ai.stanford.edu/~quocle/LeNgiCoaLahProNg11.pdf)  
@@ -58,12 +57,26 @@
 - 2013 ICML [On the importance of initialization and momentum in deep learning](http://www.cs.toronto.edu/~fritz/absps/momentum.pdf)  
 - 2010 AISTATS [Understanding the difficulty of training deep feedforward neural networks](http://jmlr.org/proceedings/papers/v9/glorot10a/glorot10a.pdf) (Xavier initialization)  
 
+
+## Generalization
+- 2018 arXiv [On Characterizing the Capacity of Neural Networks using Algebraic Topology](https://arxiv.org/pdf/1802.04443.pdf)  
+- 2017 arXiv [Exploring Generalization in Deep Learning](https://arxiv.org/pdf/1706.08947.pdf)  
+- 2017 NIPS [Train longer, generalize better: closing the generalization gap in large batch training of neural networks](http://papers.nips.cc/paper/6770-train-longer-generalize-better-closing-the-generalization-gap-in-large-batch-training-of-neural-networks.pdf)  
+- 2017 ICML [A Closer Look at Memorization in Deep Networks](https://arxiv.org/pdf/1706.05394.pdf)
+- 2017 ICLR [Understanding deep learning requires rethinking generalization](https://openreview.net/pdf?id=Sy8gdB9xx)  
+
 ## Loss Surface
+- 2017 arXiv [Visualizing the Loss Landscape of Neural Nets](https://arxiv.org/pdf/1712.09913.pdf)  
+- 2017 arXiv [The loss surface and expressivity of deep convolutional neural networks](https://arxiv.org/pdf/1710.10928.pdf)  
 - 2017 ICML [The Loss Surface of Deep and Wide Neural Networks](https://arxiv.org/pdf/1704.08045.pdf)  
 - 2017 ICML [Geometry of Neural Network Loss Surfaces via Random Matrix Theory](http://proceedings.mlr.press/v70/pennington17a/pennington17a.pdf)  
 - 2017 ICML [Sharp Minima Can Generalize For Deep Nets](https://arxiv.org/pdf/1703.04933.pdf)    
 - 2017 ICLR [Entropy-SGD: Biasing Gradient Descent Into Wide Valleys](https://arxiv.org/pdf/1611.01838.pdf)  
 - 2017 ICLR [On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima](https://openreview.net/pdf?id=H1oyRlYgg)  
+- 2017 arXiv [An empirical analysis of the optimization of deep network loss surfaces](https://arxiv.org/pdf/1612.04010.pdf)  
+- 2016 ICMLW [Visualizing Deep Network Training Trajectories with PCA](https://icmlviz.github.io/icmlviz2016/assets/papers/24.pdf)  
+- 2016 ICLRW [Stuck in a What? Adventures in Weight Space](https://arxiv.org/pdf/1602.07320.pdf)  
+- 2015 ICLR [Qualitatively Characterizing Neural Network Optimization Problems](https://arxiv.org/pdf/1412.6544.pdf)  
 - 2015 AISTATS [The Loss Surfaces of Multilayer Networks](http://www.jmlr.org/proceedings/papers/v38/choromanska15.pdf)  
 - 2014 NIPS [Identifying and attacking the saddle point problem in high-dimensional non-convex optimization](http://papers.nips.cc/paper/5486-identifying-and-attacking-the-saddle-point-problem-in-high-dimensional-non-convex-optimization.pdf)  
 
@@ -94,7 +107,7 @@
 - 2014 JMLR [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf) (Dropout)   
 
 ## Meta-Learning  
-- 2017 ICML [Neural Optimizer Search with Reinforcement Learning]()  
+- 2017 ICML [Neural Optimizer Search with Reinforcement Learning](https://arxiv.org/pdf/1709.07417.pdf)  
 - 2017 ICML [Learned Optimizers that Scale and Generalize](https://arxiv.org/pdf/1703.04813.pdf)  
 - 2017 ICML [Learning to Learn without Gradient Descent by Gradient Descent](http://www.cantab.net/users/yutian.chen/Publications/ChenEtAl_ICML17_L2L.pdf)  
 - 2017 ICLR [Learning to Optimize](https://openreview.net/pdf?id=ry4Vrt5gl)  

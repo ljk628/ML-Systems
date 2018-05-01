@@ -27,6 +27,8 @@
 - 2012 NIPS [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) (AlexNet)  
 
 ## Architecture Design
+- 2018 arXiv [Regularized Evolution for Image Classifier Architecture Search](https://arxiv.org/pdf/1802.01548.pdf)  
+- 2018 CVPR [Learning Transferable Architectures for Scalable Image Recognition](https://arxiv.org/pdf/1707.07012.pdf)  
 - 2017 arXiv [One Model To Learn Them All](https://arxiv.org/abs/1706.05137)  
 - 2017 arXiv [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861)  
 - 2017 ICML [AdaNet: Adaptive Structural Learning of Artificial Neural Networks](https://arxiv.org/pdf/1607.01097.pdf)  
@@ -91,6 +93,7 @@
 - 2013 CVPR [Learning Separable Filters](http://cvlabwww.epfl.ch/~lepetit/papers/rigamonti_cvpr13.pdf)  
 
 ## Low Precision  
+- 2018 AAAI [Extremely Low Bit Neural Network: Squeeze the Last Bit Out with ADMM](https://arxiv.org/pdf/1707.09870.pdf)  
 - 2017 arXiv [Mixed Precision Training](https://arxiv.org/pdf/1710.03740.pdf)
 - 2017 arXiv [BitNet: Bit-Regularized Deep Neural Networks](https://arxiv.org/pdf/1708.04788.pdf)  
 - 2017 arXiv [Gradient Descent for Spiking Neural Networks](https://arxiv.org/abs/1706.04698)  
@@ -133,6 +136,9 @@
 - 1987 Combinatorica [Randomized rounding: A technique for provably good algorithms and algorithmic proofs](https://www.cs.auckland.ac.nz/~cthombor/Pubs/RandomRounding/RandomRounding1987.pdf)  
 
 ## Parameter Pruning  
+- 2018 ICLR [On the importance of single directions for generalization](https://arxiv.org/pdf/1803.06959.pdf)  
+- 2018 ICLR [Rethinking the Smaller-Norm-Less-Informative Assumption in Channel Pruning of Convolution Layers](https://arxiv.org/pdf/1802.00124.pdf)  
+- 2017 NIPS [Runtime Neural Pruning](https://papers.nips.cc/paper/6813-runtime-neural-pruning.pdf)  
 - 2017 ICML [Beyond Filters: Compact Feature Map for Portable Deep Model](http://proceedings.mlr.press/v70/wang17m/wang17m.pdf)  
 - 2017 ICLR [Soft Weight-Sharing for Neural Network Compression](https://openreview.net/pdf?id=HJGwcKclx)  
 - 2017 ICLR [Pruning Convolutional Neural Networks for Resource Efficient Inference](https://openreview.net/pdf?id=SJGCiw5gl)  
