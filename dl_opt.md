@@ -1,16 +1,52 @@
 # Optimization for Deep Learning
 
-- [General](#general)  
-- [Adaptive Gradient Methods](#adaptive-gradient-methods)
-- [Batch Size](#batch-size)
-- [Distributed Optimization](#distributed-optimization)  
-- [Initialization](#initialization)  
 - [Generalization](#generalization)
 - [Loss Surface](#loss-surface)
+- [Batch Size](#batch-size)
+- [General](#general)  
+- [Adaptive Gradient Methods](#adaptive-gradient-methods)
+- [Distributed Optimization](#distributed-optimization)  
+- [Initialization](#initialization)  
 - [Low Precision](#low-precision)
 - [Normalization](#normalization)
 - [Regularization](#regularization)
 - [Meta Learning](#meta-learning)
+
+## Generalization
+- 2018 ICLR [Sensitivity and Generalization in Neural Networks: an Empirical Study](https://openreview.net/pdf?id=HJC2SzZCW)  
+- 2018 arXiv [On Characterizing the Capacity of Neural Networks using Algebraic Topology](https://arxiv.org/pdf/1802.04443.pdf)  
+- 2017 arXiv [Computing Nonvacuous Generalization Bounds for Deep (Stochastic) Neural Networks with Many More Parameters than Training Data](https://arxiv.org/pdf/1703.11008.pdf)  
+- 2017 NIPS [Exploring Generalization in Deep Learning](https://arxiv.org/pdf/1706.08947.pdf)  
+- 2017 NIPS [Train longer, generalize better: closing the generalization gap in large batch training of neural networks](http://papers.nips.cc/paper/6770-train-longer-generalize-better-closing-the-generalization-gap-in-large-batch-training-of-neural-networks.pdf)  
+- 2017 ICML [A Closer Look at Memorization in Deep Networks](https://arxiv.org/pdf/1706.05394.pdf)
+- 2017 ICLR [Understanding deep learning requires rethinking generalization](https://openreview.net/pdf?id=Sy8gdB9xx)  
+
+## Loss Surface
+- 2018 NIPS [Visualizing the Loss Landscape of Neural Nets](https://arxiv.org/pdf/1712.09913.pdf)  
+- 2018 ICML [Essentially No Barriers in Neural Network Energy Landscape](https://arxiv.org/pdf/1803.00885.pdf)  
+- 2018 arXiv [Loss Surfaces, Mode Connectivity, and Fast Ensembling of DNNs](https://arxiv.org/abs/1802.10026)  
+- 2018 ICML [Optimization Landscape and Expressivity of Deep CNNs](http://proceedings.mlr.press/v80/nguyen18a/nguyen18a.pdf)  
+- 2018 ICLR [Measuring the Intrinsic Dimension of Objective Landscapes](https://arxiv.org/pdf/1804.08838.pdf)  
+- 2017 ICML [The Loss Surface of Deep and Wide Neural Networks](https://arxiv.org/pdf/1704.08045.pdf)  
+- 2017 ICML [Geometry of Neural Network Loss Surfaces via Random Matrix Theory](http://proceedings.mlr.press/v70/pennington17a/pennington17a.pdf)  
+- 2017 ICML [Sharp Minima Can Generalize For Deep Nets](https://arxiv.org/pdf/1703.04933.pdf)    
+- 2017 ICLR [Entropy-SGD: Biasing Gradient Descent Into Wide Valleys](https://arxiv.org/pdf/1611.01838.pdf)  
+- 2017 ICLR [On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima](https://openreview.net/pdf?id=H1oyRlYgg)  
+- 2017 arXiv [An empirical analysis of the optimization of deep network loss surfaces](https://arxiv.org/pdf/1612.04010.pdf)  
+- 2016 ICMLW [Visualizing Deep Network Training Trajectories with PCA](https://icmlviz.github.io/icmlviz2016/assets/papers/24.pdf)  
+- 2016 ICLRW [Stuck in a What? Adventures in Weight Space](https://arxiv.org/pdf/1602.07320.pdf)  
+- 2015 ICLR [Qualitatively Characterizing Neural Network Optimization Problems](https://arxiv.org/pdf/1412.6544.pdf)  
+- 2015 AISTATS [The Loss Surfaces of Multilayer Networks](http://www.jmlr.org/proceedings/papers/v38/choromanska15.pdf)  
+- 2014 NIPS [Identifying and attacking the saddle point problem in high-dimensional non-convex optimization](http://papers.nips.cc/paper/5486-identifying-and-attacking-the-saddle-point-problem-in-high-dimensional-non-convex-optimization.pdf)  
+
+## Batch Size
+- 2018 NIPS [Hessian-based Analysis of Large Batch Training and Robustness to Adversaries](https://arxiv.org/pdf/1802.08241.pdf)  
+- 2018 ICLR [Don't Decay the Learning Rate, Increase the Batch Size](https://arxiv.org/pdf/1711.00489.pdf)  
+- 2017 arXiv [Scaling SGD Batch Size to 32K for ImageNet Training](https://arxiv.org/pdf/1708.03888.pdf)  
+- 2017 arXiv [Accurate, Large Minibatch SGD:Training ImageNet in 1 Hour](https://arxiv.org/abs/1706.02677)  
+- 2017 ICML [Sharp Minima Can Generalize For Deep Nets](https://arxiv.org/abs/1703.04933)  
+- 2017 ICLR [On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima](https://openreview.net/pdf?id=H1oyRlYgg)  
+
 
 ## General
 - 2016 ICML [Train faster, generalize better: Stability of stochastic gradient descent](http://proceedings.mlr.press/v48/hardt16.pdf)  
@@ -31,16 +67,10 @@
 - 2012 Lecture [RMSProp: Divide the gradient by a running average of its recent magnitude. COURSERA: Neural Networks for Machine Learning]() (RMSProp)  
 - 2011 JMLR [Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf) (Adagrad)  
 
-## Batch Size
-- 2017 arXiv [Scaling SGD Batch Size to 32K for ImageNet Training](https://arxiv.org/pdf/1708.03888.pdf)  
-- 2017 arXiv [Accurate, Large Minibatch SGD:Training ImageNet in 1 Hour](https://arxiv.org/abs/1706.02677)  
-- 2017 ICML [Sharp Minima Can Generalize For Deep Nets](https://arxiv.org/abs/1703.04933)  
-- 2017 ICLR [On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima](https://openreview.net/pdf?id=H1oyRlYgg)  
-
 ## Distributed Optimization  
 - 2017 arXiv [Accurate, Large Minibatch SGD:Training ImageNet in 1 Hour](https://arxiv.org/abs/1706.02677)  
-- 2017 arXiv [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning](https://arxiv.org/pdf/1705.07878.pdf)  
-- 2017 arXiv [QSGD: Communication-Efficient Stochastic Gradient Descent, with Applications to Training Neural Networks](https://arxiv.org/pdf/1610.02132.pdf) (QSGD)  
+- 2017 NIPS [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning](https://arxiv.org/pdf/1705.07878.pdf)  
+- 2017 NIPS [QSGD: Communication-Efficient Stochastic Gradient Descent, with Applications to Training Neural Networks](https://arxiv.org/pdf/1610.02132.pdf) (QSGD)  
 - 2016 ICML [Training Neural Networks Without Gradients: A Scalable ADMM Approach](http://jmlr.org/proceedings/papers/v48/taylor16.pdf)  
 - 2016 IJCAI [Staleness-aware Async-SGD for Distributed Deep Learning](http://www.ijcai.org/Proceedings/16/Papers/335.pdf)  
 - 2016 ICLRW [Revisiting Distributed Synchronous SGD](http://arxiv.org/abs/1604.00981)  
@@ -57,28 +87,6 @@
 - 2013 ICML [On the importance of initialization and momentum in deep learning](http://www.cs.toronto.edu/~fritz/absps/momentum.pdf)  
 - 2010 AISTATS [Understanding the difficulty of training deep feedforward neural networks](http://jmlr.org/proceedings/papers/v9/glorot10a/glorot10a.pdf) (Xavier initialization)  
 
-
-## Generalization
-- 2018 arXiv [On Characterizing the Capacity of Neural Networks using Algebraic Topology](https://arxiv.org/pdf/1802.04443.pdf)  
-- 2017 arXiv [Exploring Generalization in Deep Learning](https://arxiv.org/pdf/1706.08947.pdf)  
-- 2017 NIPS [Train longer, generalize better: closing the generalization gap in large batch training of neural networks](http://papers.nips.cc/paper/6770-train-longer-generalize-better-closing-the-generalization-gap-in-large-batch-training-of-neural-networks.pdf)  
-- 2017 ICML [A Closer Look at Memorization in Deep Networks](https://arxiv.org/pdf/1706.05394.pdf)
-- 2017 ICLR [Understanding deep learning requires rethinking generalization](https://openreview.net/pdf?id=Sy8gdB9xx)  
-
-## Loss Surface
-- 2017 arXiv [Visualizing the Loss Landscape of Neural Nets](https://arxiv.org/pdf/1712.09913.pdf)  
-- 2017 arXiv [The loss surface and expressivity of deep convolutional neural networks](https://arxiv.org/pdf/1710.10928.pdf)  
-- 2017 ICML [The Loss Surface of Deep and Wide Neural Networks](https://arxiv.org/pdf/1704.08045.pdf)  
-- 2017 ICML [Geometry of Neural Network Loss Surfaces via Random Matrix Theory](http://proceedings.mlr.press/v70/pennington17a/pennington17a.pdf)  
-- 2017 ICML [Sharp Minima Can Generalize For Deep Nets](https://arxiv.org/pdf/1703.04933.pdf)    
-- 2017 ICLR [Entropy-SGD: Biasing Gradient Descent Into Wide Valleys](https://arxiv.org/pdf/1611.01838.pdf)  
-- 2017 ICLR [On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima](https://openreview.net/pdf?id=H1oyRlYgg)  
-- 2017 arXiv [An empirical analysis of the optimization of deep network loss surfaces](https://arxiv.org/pdf/1612.04010.pdf)  
-- 2016 ICMLW [Visualizing Deep Network Training Trajectories with PCA](https://icmlviz.github.io/icmlviz2016/assets/papers/24.pdf)  
-- 2016 ICLRW [Stuck in a What? Adventures in Weight Space](https://arxiv.org/pdf/1602.07320.pdf)  
-- 2015 ICLR [Qualitatively Characterizing Neural Network Optimization Problems](https://arxiv.org/pdf/1412.6544.pdf)  
-- 2015 AISTATS [The Loss Surfaces of Multilayer Networks](http://www.jmlr.org/proceedings/papers/v38/choromanska15.pdf)  
-- 2014 NIPS [Identifying and attacking the saddle point problem in high-dimensional non-convex optimization](http://papers.nips.cc/paper/5486-identifying-and-attacking-the-saddle-point-problem-in-high-dimensional-non-convex-optimization.pdf)  
 
 ## Low Precision
 - 2017 arXiv [Gradient Descent for Spiking Neural Networks](https://arxiv.org/abs/1706.04698)  
@@ -113,7 +121,7 @@
 - 2017 ICLR [Learning to Optimize](https://openreview.net/pdf?id=ry4Vrt5gl)  
 - 2016 arXiv [Learning to reinforcement learn](https://arxiv.org/abs/1611.05763)  
 - 2016 NIPSW [Learning to Learn for Global Optimization of Black Box Functions](https://arxiv.org/abs/1611.03824)  
-- 2016 NIPS [Learning to learn by gradient descent by gradient descent](https://arxiv.org/abs/1606.04474)    
+- 2016 NIPS [Learning to learn by gradient descent by gradient descent](https://arxiv.org/abs/1606.04474)  
 - 2016 ICML [Meta-learning with memory-augmented neural networks](http://proceedings.mlr.press/v48/santoro16.pdf)  
 
 ## Hyperparameter
