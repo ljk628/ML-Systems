@@ -94,12 +94,13 @@
 
 ## Low Precision  
 - 2018 AAAI [Extremely Low Bit Neural Network: Squeeze the Last Bit Out with ADMM](https://arxiv.org/pdf/1707.09870.pdf)  
-- 2017 arXiv [Mixed Precision Training](https://arxiv.org/pdf/1710.03740.pdf)
+- 2018 ICLR [Training and Inference with Integers in Deep Neural Networks](https://arxiv.org/pdf/1802.04680.pdf)  
+- 2018 ICLR [Mixed Precision Training](https://arxiv.org/pdf/1710.03740.pdf)
 - 2017 arXiv [BitNet: Bit-Regularized Deep Neural Networks](https://arxiv.org/pdf/1708.04788.pdf)  
 - 2017 arXiv [Gradient Descent for Spiking Neural Networks](https://arxiv.org/abs/1706.04698)  
 - 2017 arXiv [ShiftCNN: Generalized Low-Precision Architecture for Inference of Convolutional Neural Networks](https://arxiv.org/abs/1706.02393)  
 - 2017 arXiv [Gated XNOR Networks: Deep Neural Networks with Ternary Weights and Activations under a Unified Discretization Framework](https://arxiv.org/abs/1705.09283)  
-- 2017 arXiv [The High-Dimensional Geometry of Binary Neural Networks](https://arxiv.org/pdf/1705.07199.pdf)  
+- 2018 ICLR [The High-Dimensional Geometry of Binary Neural Networks](https://arxiv.org/pdf/1705.07199.pdf)  
 - 2017 NIPS [Flexpoint: An Adaptive Numerical Format for Efficient Training of Deep Neural Networks](https://arxiv.org/pdf/1711.02213.pdf)  
 - 2017 NIPS [Training Quantized Nets: A Deeper Understanding](https://arxiv.org/abs/1706.02379)  
 - 2017 NIPS [TernGrad: Ternary Gradients to Reduce Communication in Distributed Deep Learning](https://arxiv.org/abs/1705.07878)  
@@ -173,7 +174,7 @@
 - 2014 ICML [DeCAF: A Deep Convolutional Activation](http://proceedings.mlr.press/v32/donahue14.pdf)  
 
 ## Theory
-- 2017 arXiv [When is a Convolutional Filter Easy to Learn?](https://arxiv.org/pdf/1709.06129.pdf)   
+- 2018 ICLR [When is a Convolutional Filter Easy to Learn?](https://arxiv.org/pdf/1709.06129.pdf)   
 - 2017 arXiv [Opening the black box of Deep Neural Networks via Information](https://arxiv.org/pdf/1703.00810.pdf)  
 - 2017 ICML [On the Expressive Power of Deep Neural Networks](https://arxiv.org/pdf/1606.05336v6.pdf)  
 - 2017 ICML [A Closer Look at Memorization in Deep Networks](https://arxiv.org/pdf/1706.05394.pdf)  
